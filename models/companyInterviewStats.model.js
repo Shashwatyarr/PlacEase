@@ -2,9 +2,9 @@ import mongoose from "mongoose";
 
 const companyInterviewStatsSchema = new mongoose.Schema(
   {
-    companySlug: {
-      type: String,
-      required: true,
+    companyId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Company",
       index: true,
     },
 
