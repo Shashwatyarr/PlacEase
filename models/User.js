@@ -35,6 +35,23 @@ const userSchema = new mongoose.Schema(
       telegramUsername: { type: String, required: true },
       linkedAt: { type: Date },
     },
+    dsaStats: {
+      totalScore: { type: Number, default: 0 },
+      solvedCount: { type: Number, default: 0 },
+
+      difficultyBreakdown: {
+        easy: { type: Number, default: 0 },
+        medium: { type: Number, default: 0 },
+        hard: { type: Number, default: 0 },
+      },
+
+      tagScores: [
+        {
+          tag: String,
+          score: Number,
+        },
+      ],
+    },
   },
   { timestamps: true },
 );
