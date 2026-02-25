@@ -7,12 +7,14 @@ const dsaProblemSchema = new mongoose.Schema(
       required: true,
       unique: true,
       index: true,
+      lowercase: true,
+      trim: true,
     },
 
     title: {
       type: String,
       required: true,
-      index: true,
+      trim: true,
     },
 
     difficulty: {
@@ -29,21 +31,20 @@ const dsaProblemSchema = new mongoose.Schema(
     },
 
     acceptanceRate: {
-      type: Number, // store as percentage (e.g., 59)
-      index: true,
+      type: Number,
+      default: null,
     },
 
     tags: [
       {
         type: String,
-        index: true,
       },
     ],
 
     companies: [
       {
-        type: String, // amazon, google
-        index: true,
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Company",
       },
     ],
 
@@ -67,9 +68,10 @@ const dsaProblemSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-// Optimized compound indexes
 dsaProblemSchema.index({ difficulty: 1, frequencyScore: -1 });
+dsaProblemSchema.index({ companies: 1 });
+dsaProblemSchema.index({ tags: 1 });
 dsaProblemSchema.index({ companies: 1, difficulty: 1 });
-dsaProblemSchema.index({ tags: 1, difficulty: 1 });
+dsaProblemSchema.index({ title: "text" });
 
 export default mongoose.model("DSAProblem", dsaProblemSchema);

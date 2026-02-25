@@ -5,6 +5,7 @@ import cors from "cors";
 import connectdb from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import "./utils/send_telegram.js";
+import dsaRoutes from "./routes/dsa.routes.js";
 
 const app = express();
 
@@ -14,7 +15,7 @@ app.use(express.json());
 connectdb();
 
 app.use("/api/auth", authRoutes);
-
+app.use("/api/dsa", dsaRoutes);
 app.get("/", (req, res) => {
   res.send("Backend is running...");
 });
