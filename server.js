@@ -6,6 +6,8 @@ import connectdb from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import "./utils/send_telegram.js";
 import dsaRoutes from "./routes/dsa.routes.js";
+import progressRoutes from "./routes/progress.routes.js";
+import leaderboardRoutes from "./routes/leaderboard.routes.js";
 
 const app = express();
 
@@ -16,6 +18,8 @@ connectdb();
 
 app.use("/api/auth", authRoutes);
 app.use("/api/dsa", dsaRoutes);
+app.use("/api/progress", progressRoutes);
+app.use("/api/leaderboard", leaderboardRoutes);
 app.get("/", (req, res) => {
   res.send("Backend is running...");
 });
