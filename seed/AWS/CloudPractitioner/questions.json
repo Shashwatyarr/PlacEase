@@ -1,0 +1,5336 @@
+[
+  {
+    "id": "clf-cc-001",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 1,
+    "service": "General",
+    "question": "Which of the following best describes cloud computing?",
+    "options": [
+      "Owning physical data centers",
+      "On-demand delivery of IT resources over the internet",
+      "Installing software on local machines only",
+      "Using only private networks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cloud computing provides on-demand access to IT resources over the internet with pay-as-you-go pricing."
+  },
+  {
+    "id": "clf-cc-002",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 1,
+    "service": "General",
+    "question": "Which pricing model allows customers to pay only for the compute time they use?",
+    "options": [
+      "Reserved Instances",
+      "On-Demand",
+      "Dedicated Hosts",
+      "Savings Plans (3-year upfront only)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "On-Demand pricing allows customers to pay for compute capacity by the hour or second without long-term commitments."
+  },
+  {
+    "id": "clf-cc-003",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "EC2",
+    "question": "A startup wants to avoid large upfront hardware costs. Which AWS benefit supports this goal?",
+    "options": [
+      "Capital expenditure (CapEx)",
+      "Operational expenditure (OpEx)",
+      "Fixed billing cycle",
+      "Manual provisioning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AWS enables OpEx, allowing customers to pay for resources as they use them instead of investing upfront."
+  },
+  {
+    "id": "clf-cc-004",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which cloud deployment model is owned and operated by a third-party cloud provider?",
+    "options": [
+      "Private Cloud",
+      "On-Premises",
+      "Public Cloud",
+      "Hybrid Local"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In the public cloud model, infrastructure is owned and operated by a third-party provider like AWS."
+  },
+  {
+    "id": "clf-cc-005",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which of the following is a key advantage of elasticity in AWS?",
+    "options": [
+      "Manually resizing servers",
+      "Scaling resources automatically based on demand",
+      "Purchasing fixed hardware",
+      "Using a single Availability Zone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Elasticity allows resources to automatically scale up or down based on workload demand."
+  },
+  {
+    "id": "clf-cc-006",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "EC2",
+    "question": "Which AWS feature allows customers to scale compute resources automatically?",
+    "options": [
+      "Auto Scaling",
+      "CloudTrail",
+      "IAM",
+      "AWS Budgets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon EC2 Auto Scaling automatically adjusts compute capacity based on demand."
+  },
+  {
+    "id": "clf-cc-007",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 1,
+    "service": "General",
+    "question": "Which AWS pricing model provides the highest discount in exchange for long-term commitment?",
+    "options": [
+      "On-Demand",
+      "Spot Instances",
+      "Reserved Instances",
+      "Free Tier"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Reserved Instances provide significant discounts in exchange for a 1- or 3-year commitment."
+  },
+  {
+    "id": "clf-cc-008",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "What does high availability in AWS primarily ensure?",
+    "options": [
+      "Lower pricing",
+      "Data encryption",
+      "System remains operational with minimal downtime",
+      "Single data center usage"
+    ],
+    "correctAnswer": 2,
+    "explanation": "High availability ensures systems remain operational even if one component fails."
+  },
+  {
+    "id": "clf-cc-009",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which concept allows AWS customers to increase or decrease resources based on workload?",
+    "options": [
+      "Elasticity",
+      "Durability",
+      "Compliance",
+      "Governance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elasticity allows scaling resources up or down dynamically."
+  },
+  {
+    "id": "clf-cc-010",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS benefit allows companies to deploy globally within minutes?",
+    "options": [
+      "Global infrastructure",
+      "Manual server shipping",
+      "Single-region architecture",
+      "Dedicated hosting only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS global infrastructure allows customers to deploy applications in multiple regions quickly."
+  },
+  {
+    "id": "clf-cc-011",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 1,
+    "service": "General",
+    "question": "Which AWS model allows a company to combine on-premises infrastructure with cloud resources?",
+    "options": [
+      "Public Cloud",
+      "Private Cloud",
+      "Hybrid Cloud",
+      "Dedicated Cloud"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hybrid cloud combines on-premises infrastructure with cloud services."
+  },
+  {
+    "id": "clf-cc-012",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS benefit reduces the need to guess future capacity requirements?",
+    "options": [
+      "Elasticity",
+      "Capital investment",
+      "Fixed contracts",
+      "Manual scaling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elasticity allows scaling resources dynamically without overprovisioning."
+  },
+  {
+    "id": "clf-cc-013",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "EC2",
+    "question": "Which pricing option is best for workloads with unpredictable usage and short-term spikes?",
+    "options": [
+      "Reserved Instances",
+      "Savings Plans (3-year all upfront)",
+      "On-Demand",
+      "Dedicated Hosts"
+    ],
+    "correctAnswer": 2,
+    "explanation": "On-Demand pricing is suitable for unpredictable workloads."
+  },
+  {
+    "id": "clf-cc-014",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "EC2",
+    "question": "Which instance type pricing allows customers to bid for unused AWS capacity?",
+    "options": [
+      "On-Demand",
+      "Spot Instances",
+      "Reserved Instances",
+      "Free Tier"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Spot Instances allow bidding on unused EC2 capacity at discounted prices."
+  },
+  {
+    "id": "clf-cc-015",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "What is a key financial advantage of AWS cloud computing?",
+    "options": [
+      "High upfront capital expenses",
+      "Predictable hardware depreciation",
+      "Pay-as-you-go pricing",
+      "Long-term hardware ownership"
+    ],
+    "correctAnswer": 2,
+    "explanation": "AWS offers pay-as-you-go pricing, reducing upfront investments."
+  },
+
+  {
+    "id": "clf-cc-016",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "A company wants to improve fault tolerance. What should they implement?",
+    "options": [
+      "Single Availability Zone deployment",
+      "Multi-AZ deployment",
+      "Manual backups only",
+      "Single EC2 instance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deploying resources across multiple Availability Zones improves fault tolerance."
+  },
+  {
+    "id": "clf-cc-017",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which concept allows AWS customers to experiment and innovate faster?",
+    "options": [
+      "Fixed infrastructure",
+      "Manual procurement",
+      "Agility",
+      "Hardware lifecycle management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "AWS enables agility by allowing rapid provisioning of resources."
+  },
+  {
+    "id": "clf-cc-018",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS feature allows customers to deploy workloads globally?",
+    "options": [
+      "Global infrastructure",
+      "Single data center",
+      "Local hardware racks",
+      "Manual routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS global infrastructure enables deployment in multiple regions worldwide."
+  },
+  {
+    "id": "clf-cc-019",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "EC2",
+    "question": "Which purchasing option offers discounted pricing without specifying instance type or region?",
+    "options": [
+      "Reserved Instances",
+      "Savings Plans",
+      "Spot Instances",
+      "On-Demand"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Savings Plans provide flexible discounted pricing across instance types and regions."
+  },
+  {
+    "id": "clf-cc-020",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which term describes the ability to recover quickly from failures?",
+    "options": [
+      "Elasticity",
+      "Resilience",
+      "Compliance",
+      "Capitalization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Resilience refers to the ability to recover quickly from failures."
+  },
+
+  {
+    "id": "clf-cc-021",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS feature supports business continuity?",
+    "options": [
+      "Multi-region architecture",
+      "Single server setup",
+      "Manual monitoring",
+      "Local backups only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multi-region architectures improve business continuity."
+  },
+  {
+    "id": "clf-cc-022",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 1,
+    "service": "General",
+    "question": "Which AWS pricing model does not require long-term commitment?",
+    "options": [
+      "Reserved Instances",
+      "Savings Plans",
+      "On-Demand",
+      "Dedicated Hosts"
+    ],
+    "correctAnswer": 2,
+    "explanation": "On-Demand pricing requires no long-term commitment."
+  },
+  {
+    "id": "clf-cc-023",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which characteristic of cloud computing improves cost efficiency by sharing resources?",
+    "options": [
+      "Single tenancy",
+      "Multi-tenancy",
+      "Dedicated hosting",
+      "Manual provisioning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Multi-tenancy allows shared resources among multiple customers."
+  },
+  {
+    "id": "clf-cc-024",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS principle encourages building loosely coupled architectures?",
+    "options": [
+      "Monolithic design",
+      "Tight integration",
+      "Decoupling components",
+      "Manual scaling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Decoupling components improves scalability and reliability."
+  },
+  {
+    "id": "clf-cc-025",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "Which AWS benefit helps organizations focus on core business instead of managing infrastructure?",
+    "options": [
+      "Undifferentiated heavy lifting removal",
+      "Manual patching",
+      "Hardware procurement",
+      "Physical data center expansion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS removes undifferentiated heavy lifting such as hardware maintenance."
+  },
+  {
+    "id": "clf-cc-026",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS feature allows rapid provisioning of resources through automation?",
+    "options": [
+      "Manual deployment",
+      "Infrastructure as Code",
+      "Physical hardware ordering",
+      "Dedicated hosting only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Infrastructure as Code allows automated provisioning and management of resources."
+  },
+  {
+    "id": "clf-cc-027",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which term describes the ability to scale resources automatically based on demand?",
+    "options": [
+      "Durability",
+      "Elasticity",
+      "Governance",
+      "Compliance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Elasticity allows automatic scaling of resources based on workload demand."
+  },
+  {
+    "id": "clf-cc-028",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "A company wants to reduce latency for global users. Which AWS capability supports this?",
+    "options": [
+      "Deploying in multiple regions",
+      "Single-region deployment",
+      "Manual routing tables",
+      "Local-only servers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deploying in multiple regions reduces latency for geographically distributed users."
+  },
+  {
+    "id": "clf-cc-029",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which cloud characteristic ensures resources are available when needed?",
+    "options": [
+      "On-demand self-service",
+      "Manual provisioning",
+      "Dedicated procurement",
+      "Local storage only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "On-demand self-service allows users to provision resources as needed."
+  },
+  {
+    "id": "clf-cc-030",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "Which AWS concept improves system reliability by distributing workloads?",
+    "options": [
+      "Single instance deployment",
+      "Fault isolation",
+      "Centralized hosting",
+      "Hardware ownership"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fault isolation limits the impact of failures to specific components."
+  },
+  {
+    "id": "clf-cc-031",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 1,
+    "service": "General",
+    "question": "Which cloud model provides shared infrastructure for multiple customers?",
+    "options": [
+      "Public Cloud",
+      "Private Cloud",
+      "On-Premises",
+      "Dedicated Data Center"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Public cloud infrastructure is shared among multiple customers."
+  },
+  {
+    "id": "clf-cc-032",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS principle encourages designing for failure?",
+    "options": [
+      "Assume hardware is perfect",
+      "Design for high availability",
+      "Avoid backups",
+      "Use single region only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Designing for high availability prepares systems to handle failures."
+  },
+  {
+    "id": "clf-cc-033",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS benefit allows quick experimentation without long-term commitment?",
+    "options": [
+      "Pay-as-you-go pricing",
+      "Fixed annual contracts",
+      "Hardware purchase",
+      "Dedicated hosting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pay-as-you-go pricing enables experimentation without upfront commitments."
+  },
+  {
+    "id": "clf-cc-034",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "Which AWS feature reduces downtime during maintenance events?",
+    "options": [
+      "Multi-AZ architecture",
+      "Single server hosting",
+      "Manual failover",
+      "On-premises storage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multi-AZ deployments allow failover to another zone during outages."
+  },
+  {
+    "id": "clf-cc-035",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which financial model shifts IT spending from capital expenses to operational expenses?",
+    "options": [
+      "CapEx model",
+      "OpEx model",
+      "Hardware ownership",
+      "Manual budgeting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cloud computing shifts spending to operational expenses."
+  },
+  {
+    "id": "clf-cc-036",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "Which approach improves scalability by separating application components?",
+    "options": [
+      "Monolithic design",
+      "Decoupled architecture",
+      "Single-tier deployment",
+      "Manual scaling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Decoupled architectures improve scalability and fault isolation."
+  },
+  {
+    "id": "clf-cc-037",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS advantage allows organizations to scale globally within minutes?",
+    "options": [
+      "Global infrastructure",
+      "Hardware procurement",
+      "Dedicated hosting only",
+      "Manual setup"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS global infrastructure allows rapid deployment worldwide."
+  },
+  {
+    "id": "clf-cc-038",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS benefit allows customers to stop paying for unused resources?",
+    "options": [
+      "Elastic pricing",
+      "Manual billing",
+      "Hardware depreciation",
+      "Dedicated hosting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elastic pricing allows customers to scale down and reduce costs."
+  },
+  {
+    "id": "clf-cc-039",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "Which concept helps isolate failures to prevent cascading issues?",
+    "options": [
+      "Fault isolation",
+      "Centralization",
+      "Monolithic design",
+      "Manual backups"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fault isolation prevents failures from affecting the entire system."
+  },
+  {
+    "id": "clf-cc-040",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS concept supports innovation by lowering barriers to entry?",
+    "options": [
+      "Capital expenditure",
+      "Operational expenditure",
+      "Manual infrastructure setup",
+      "Hardware ownership"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Operational expenditure reduces upfront investment barriers."
+  },
+  {
+    "id": "clf-cc-041",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 1,
+    "service": "General",
+    "question": "Which AWS feature enables customers to provision resources without human interaction?",
+    "options": [
+      "On-demand self-service",
+      "Manual provisioning",
+      "Dedicated hosting",
+      "Hardware purchase"
+    ],
+    "correctAnswer": 0,
+    "explanation": "On-demand self-service allows automatic provisioning."
+  },
+  {
+    "id": "clf-cc-042",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS principle encourages automation over manual processes?",
+    "options": [
+      "Manual intervention",
+      "Infrastructure as Code",
+      "Hardware management",
+      "Dedicated servers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Infrastructure as Code automates provisioning and configuration."
+  },
+  {
+    "id": "clf-cc-043",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS benefit improves time-to-market for new applications?",
+    "options": [
+      "Global deployment",
+      "Manual procurement",
+      "Fixed infrastructure",
+      "Hardware ordering"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Global deployment capabilities reduce time-to-market."
+  },
+  {
+    "id": "clf-cc-044",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "Which AWS concept enables scaling resources automatically based on policies?",
+    "options": [
+      "Auto Scaling",
+      "Manual resizing",
+      "Dedicated hosting",
+      "Hardware procurement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Auto Scaling adjusts resources based on defined policies."
+  },
+  {
+    "id": "clf-cc-045",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS feature allows cost tracking and usage monitoring?",
+    "options": [
+      "Billing dashboard",
+      "Manual accounting",
+      "Dedicated servers",
+      "Physical audits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS provides billing dashboards to monitor usage and costs."
+  },
+  {
+    "id": "clf-cc-046",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "Which strategy improves application reliability across geographic regions?",
+    "options": [
+      "Single-region deployment",
+      "Multi-region deployment",
+      "Manual failover",
+      "Dedicated servers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Multi-region deployment improves global reliability."
+  },
+  {
+    "id": "clf-cc-047",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS concept allows scaling down resources during low demand?",
+    "options": [
+      "Elasticity",
+      "Durability",
+      "Compliance",
+      "Governance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elasticity enables scaling up or down based on demand."
+  },
+  {
+    "id": "clf-cc-048",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS feature supports disaster recovery planning?",
+    "options": [
+      "Multi-AZ architecture",
+      "Single data center",
+      "Manual processes",
+      "Hardware procurement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multi-AZ architecture improves disaster recovery capabilities."
+  },
+  {
+    "id": "clf-cc-049",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 3,
+    "service": "General",
+    "question": "Which AWS principle reduces operational overhead by automating tasks?",
+    "options": [
+      "Manual configuration",
+      "Automation",
+      "Hardware management",
+      "Dedicated hosting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Automation reduces manual effort and operational overhead."
+  },
+  {
+    "id": "clf-cc-050",
+    "exam": "CLF-C02",
+    "domain": "Cloud Concepts",
+    "difficulty": 2,
+    "service": "General",
+    "question": "Which AWS concept ensures that applications can handle traffic spikes?",
+    "options": [
+      "Elasticity",
+      "Durability",
+      "Compliance",
+      "Governance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elasticity allows applications to scale during traffic spikes."
+  },
+  {
+    "id": "clf-sc-001",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 1,
+    "service": "IAM",
+    "question": "Which AWS service manages user authentication and authorization?",
+    "options": [
+      "Amazon EC2",
+      "AWS IAM",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AWS IAM manages access to AWS services and resources securely."
+  },
+  {
+    "id": "clf-sc-002",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "IAM",
+    "question": "What is the best practice for granting permissions in AWS?",
+    "options": [
+      "Grant full access to all users",
+      "Use root account for daily tasks",
+      "Apply the principle of least privilege",
+      "Share IAM credentials"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Least privilege ensures users only have permissions necessary for their tasks."
+  },
+  {
+    "id": "clf-sc-003",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 1,
+    "service": "IAM",
+    "question": "Which account has full unrestricted access to all AWS services by default?",
+    "options": [
+      "IAM User",
+      "IAM Role",
+      "Root User",
+      "Federated User"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The root user has complete access to all AWS services and resources."
+  },
+  {
+    "id": "clf-sc-004",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "IAM",
+    "question": "Which feature adds an extra layer of security by requiring a second authentication factor?",
+    "options": [
+      "Encryption",
+      "MFA",
+      "IAM Policy",
+      "CloudTrail"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Multi-Factor Authentication (MFA) requires an additional verification factor."
+  },
+  {
+    "id": "clf-sc-005",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Shared Responsibility",
+    "question": "Under the shared responsibility model, who is responsible for security 'in' the cloud?",
+    "options": [
+      "AWS",
+      "Customer",
+      "Third-party auditor",
+      "Internet provider"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Customers are responsible for securing their data, applications, and configurations."
+  },
+  {
+    "id": "clf-sc-006",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Shared Responsibility",
+    "question": "Who is responsible for maintaining the physical security of AWS data centers?",
+    "options": [
+      "Customer",
+      "AWS",
+      "IAM Users",
+      "Application developer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AWS manages physical infrastructure security."
+  },
+  {
+    "id": "clf-sc-007",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "CloudTrail",
+    "question": "Which service records API activity in an AWS account?",
+    "options": [
+      "CloudTrail",
+      "CloudWatch",
+      "IAM",
+      "S3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CloudTrail logs API calls made within AWS accounts."
+  },
+  {
+    "id": "clf-sc-008",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "CloudWatch",
+    "question": "Which service monitors AWS resources and applications in real time?",
+    "options": [
+      "CloudTrail",
+      "CloudWatch",
+      "IAM",
+      "Shield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CloudWatch provides monitoring and alerting for AWS resources."
+  },
+  {
+    "id": "clf-sc-009",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "IAM",
+    "question": "A company wants temporary credentials for applications running on EC2. Which feature should they use?",
+    "options": [
+      "IAM Roles",
+      "Root account",
+      "Access keys",
+      "Shared credentials file"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IAM Roles provide temporary credentials for services like EC2."
+  },
+  {
+    "id": "clf-sc-010",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Shield",
+    "question": "Which AWS service protects against Distributed Denial of Service (DDoS) attacks?",
+    "options": [
+      "AWS Shield",
+      "CloudTrail",
+      "IAM",
+      "S3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Shield provides DDoS protection."
+  },
+
+  {
+    "id": "clf-sc-011",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "KMS",
+    "question": "Which AWS service manages encryption keys?",
+    "options": [
+      "IAM",
+      "KMS",
+      "CloudWatch",
+      "EC2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AWS Key Management Service (KMS) manages encryption keys."
+  },
+  {
+    "id": "clf-sc-012",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "Config",
+    "question": "Which service continuously evaluates AWS resource configurations for compliance?",
+    "options": [
+      "CloudTrail",
+      "AWS Config",
+      "IAM",
+      "S3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AWS Config monitors and evaluates configurations."
+  },
+  {
+    "id": "clf-sc-013",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Organizations",
+    "question": "Which service helps centrally manage multiple AWS accounts?",
+    "options": [
+      "AWS Organizations",
+      "IAM",
+      "EC2",
+      "CloudFront"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Organizations allows centralized account management."
+  },
+  {
+    "id": "clf-sc-014",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Artifact",
+    "question": "Where can customers access AWS compliance reports?",
+    "options": [
+      "AWS Artifact",
+      "CloudTrail",
+      "IAM",
+      "S3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Artifact provides access to compliance documentation."
+  },
+  {
+    "id": "clf-sc-015",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "Inspector",
+    "question": "Which AWS service automatically assesses applications for vulnerabilities?",
+    "options": [
+      "AWS Inspector",
+      "CloudWatch",
+      "IAM",
+      "S3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Inspector analyzes workloads for security vulnerabilities."
+  },
+  {
+    "id": "clf-sc-016",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "GuardDuty",
+    "question": "Which AWS service provides intelligent threat detection for AWS accounts and workloads?",
+    "options": [
+      "AWS GuardDuty",
+      "AWS IAM",
+      "AWS CloudTrail",
+      "AWS Budgets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GuardDuty continuously monitors for malicious activity and unauthorized behavior."
+  },
+  {
+    "id": "clf-sc-017",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Macie",
+    "question": "Which AWS service helps discover and protect sensitive data stored in Amazon S3?",
+    "options": [
+      "AWS Macie",
+      "AWS Shield",
+      "AWS Config",
+      "AWS Lambda"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon Macie uses machine learning to discover and classify sensitive data in S3."
+  },
+  {
+    "id": "clf-sc-018",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "IAM",
+    "question": "A company wants to grant cross-account access securely. Which IAM feature should be used?",
+    "options": [
+      "IAM Users",
+      "IAM Roles",
+      "Root Account",
+      "Access Keys Only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IAM Roles enable secure cross-account access without sharing credentials."
+  },
+  {
+    "id": "clf-sc-019",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "CloudTrail",
+    "question": "Which AWS service helps meet compliance requirements by recording account activity?",
+    "options": [
+      "CloudWatch",
+      "CloudTrail",
+      "IAM",
+      "S3 Glacier"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CloudTrail logs API calls for auditing and compliance purposes."
+  },
+  {
+    "id": "clf-sc-020",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "KMS",
+    "question": "Which encryption approach uses AWS-managed keys without user management?",
+    "options": [
+      "Customer-managed keys",
+      "AWS-managed keys",
+      "Manual encryption",
+      "Unencrypted storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AWS-managed keys are created and maintained automatically by AWS."
+  },
+  {
+    "id": "clf-sc-021",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "WAF",
+    "question": "Which AWS service helps protect web applications from common exploits?",
+    "options": [
+      "AWS WAF",
+      "AWS IAM",
+      "AWS Config",
+      "AWS Budgets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS WAF filters and monitors HTTP requests to protect web applications."
+  },
+  {
+    "id": "clf-sc-022",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Shield",
+    "question": "Which AWS Shield tier is automatically included at no extra cost?",
+    "options": [
+      "Shield Advanced",
+      "Shield Standard",
+      "Shield Premium",
+      "Shield Enterprise"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Shield Standard provides basic DDoS protection at no additional cost."
+  },
+  {
+    "id": "clf-sc-023",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "IAM",
+    "question": "What is the recommended best practice for the AWS root account?",
+    "options": [
+      "Use it for daily tasks",
+      "Share credentials with team",
+      "Enable MFA and avoid regular use",
+      "Disable IAM users"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The root account should have MFA enabled and be used only for critical tasks."
+  },
+  {
+    "id": "clf-sc-024",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Secrets Manager",
+    "question": "Which AWS service securely stores and rotates database credentials?",
+    "options": [
+      "AWS Secrets Manager",
+      "AWS IAM",
+      "AWS Config",
+      "AWS Lambda"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Secrets Manager securely stores and rotates secrets such as database credentials."
+  },
+  {
+    "id": "clf-sc-025",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Cognito",
+    "question": "Which AWS service provides authentication for web and mobile applications?",
+    "options": [
+      "Amazon Cognito",
+      "AWS IAM",
+      "AWS Shield",
+      "AWS Inspector"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon Cognito provides user sign-up, sign-in, and access control for applications."
+  },
+  {
+    "id": "clf-sc-026",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "Security Hub",
+    "question": "Which AWS service provides a centralized view of security alerts across accounts?",
+    "options": [
+      "AWS Security Hub",
+      "AWS IAM",
+      "AWS Budgets",
+      "AWS Lambda"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Security Hub aggregates security findings from multiple AWS services."
+  },
+  {
+    "id": "clf-sc-027",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "S3",
+    "question": "Which S3 feature blocks public access to buckets and objects?",
+    "options": [
+      "S3 Block Public Access",
+      "S3 Glacier",
+      "S3 Transfer Acceleration",
+      "S3 Replication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "S3 Block Public Access prevents accidental public exposure of data."
+  },
+  {
+    "id": "clf-sc-028",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "IAM",
+    "question": "Which IAM component defines permissions for actions on AWS resources?",
+    "options": [
+      "IAM Policy",
+      "IAM Group",
+      "IAM User",
+      "IAM Role"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IAM Policies define allowed or denied actions."
+  },
+  {
+    "id": "clf-sc-029",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Organizations",
+    "question": "Which feature of AWS Organizations restricts permissions across accounts?",
+    "options": [
+      "Service Control Policies",
+      "IAM Groups",
+      "Security Groups",
+      "Route Tables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Service Control Policies define permission boundaries across accounts."
+  },
+  {
+    "id": "clf-sc-030",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Encryption",
+    "question": "Which term describes encryption of data while stored?",
+    "options": [
+      "Encryption in transit",
+      "Encryption at rest",
+      "Manual encryption",
+      "Public encryption"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Encryption at rest protects stored data."
+  },
+   {
+    "id": "clf-sc-031",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Encryption",
+    "question": "Which term describes encryption of data while it is being transmitted over a network?",
+    "options": [
+      "Encryption at rest",
+      "Encryption in transit",
+      "Static encryption",
+      "Manual encryption"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Encryption in transit protects data as it moves between systems."
+  },
+  {
+    "id": "clf-sc-032",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "CloudTrail",
+    "question": "Which AWS service helps determine who made changes to a resource?",
+    "options": [
+      "CloudWatch",
+      "CloudTrail",
+      "IAM",
+      "AWS Shield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CloudTrail logs API calls and identifies who performed actions."
+  },
+  {
+    "id": "clf-sc-033",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "IAM",
+    "question": "A company wants to allow temporary access to AWS resources without creating new IAM users. What should they use?",
+    "options": [
+      "IAM Roles",
+      "Root credentials",
+      "Shared access keys",
+      "Manual passwords"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IAM Roles provide temporary security credentials."
+  },
+  {
+    "id": "clf-sc-034",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Trusted Advisor",
+    "question": "Which AWS service provides security best practice recommendations?",
+    "options": [
+      "Trusted Advisor",
+      "IAM",
+      "Lambda",
+      "EC2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Trusted Advisor provides best practice recommendations, including security checks."
+  },
+  {
+    "id": "clf-sc-035",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "S3",
+    "question": "Which feature enables versioning of objects in an S3 bucket?",
+    "options": [
+      "S3 Versioning",
+      "S3 Glacier",
+      "S3 Transfer Acceleration",
+      "S3 Access Points"
+    ],
+    "correctAnswer": 0,
+    "explanation": "S3 Versioning keeps multiple versions of an object for recovery."
+  },
+  {
+    "id": "clf-sc-036",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "IAM",
+    "question": "What is the recommended method for granting permissions to multiple users with similar responsibilities?",
+    "options": [
+      "Create separate root accounts",
+      "Attach policies to IAM groups",
+      "Share access keys",
+      "Use individual root users"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IAM groups allow applying policies to multiple users efficiently."
+  },
+  {
+    "id": "clf-sc-037",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Security Hub",
+    "question": "Which service aggregates and prioritizes security findings?",
+    "options": [
+      "Security Hub",
+      "IAM",
+      "EC2",
+      "S3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Security Hub centralizes security findings across AWS services."
+  },
+  {
+    "id": "clf-sc-038",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "KMS",
+    "question": "Who controls customer-managed encryption keys in AWS KMS?",
+    "options": [
+      "AWS only",
+      "Customer",
+      "Third-party provider",
+      "IAM users automatically"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Customer-managed keys are created and controlled by the customer."
+  },
+  {
+    "id": "clf-sc-039",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "IAM",
+    "question": "Which credential type should be rotated regularly for security best practices?",
+    "options": [
+      "Access keys",
+      "Root email",
+      "AWS region",
+      "Security group ID"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Access keys should be rotated periodically to reduce risk."
+  },
+  {
+    "id": "clf-sc-040",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "WAF",
+    "question": "Which attack type can AWS WAF help mitigate?",
+    "options": [
+      "SQL injection",
+      "Hardware failure",
+      "Power outage",
+      "Physical intrusion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS WAF can block common web exploits like SQL injection."
+  },
+  {
+    "id": "clf-sc-041",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Artifact",
+    "question": "Where can customers download AWS compliance reports such as SOC reports?",
+    "options": [
+      "AWS Artifact",
+      "CloudTrail",
+      "IAM",
+      "GuardDuty"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Artifact provides access to compliance reports."
+  },
+  {
+    "id": "clf-sc-042",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "Organizations",
+    "question": "Which feature ensures centralized control over permissions in multiple AWS accounts?",
+    "options": [
+      "Service Control Policies",
+      "IAM policies only",
+      "Security groups",
+      "Network ACLs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Service Control Policies set guardrails across AWS accounts."
+  },
+  {
+    "id": "clf-sc-043",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Shield",
+    "question": "Which AWS service provides advanced DDoS protection with cost protection benefits?",
+    "options": [
+      "Shield Advanced",
+      "Shield Standard",
+      "GuardDuty",
+      "WAF"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Shield Advanced provides enhanced DDoS protection and cost protection."
+  },
+  {
+    "id": "clf-sc-044",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Inspector",
+    "question": "Which service scans EC2 instances for vulnerabilities?",
+    "options": [
+      "AWS Inspector",
+      "AWS Config",
+      "AWS Budgets",
+      "CloudWatch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Inspector analyzes EC2 instances for vulnerabilities."
+  },
+  {
+    "id": "clf-sc-045",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "IAM",
+    "question": "Which IAM feature allows assigning permissions temporarily to AWS services?",
+    "options": [
+      "IAM Role",
+      "IAM User",
+      "IAM Group",
+      "Root User"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IAM Roles provide temporary credentials to AWS services."
+  },
+  {
+    "id": "clf-sc-046",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "S3",
+    "question": "Which S3 feature helps prevent accidental object deletion?",
+    "options": [
+      "S3 Versioning",
+      "S3 Glacier",
+      "S3 Standard",
+      "S3 Access Points"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Versioning allows recovery of deleted or overwritten objects."
+  },
+  {
+    "id": "clf-sc-047",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "IAM",
+    "question": "What is the primary purpose of IAM policies?",
+    "options": [
+      "Monitor usage",
+      "Define permissions",
+      "Store data",
+      "Scale compute"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IAM policies define allowed and denied actions."
+  },
+  {
+    "id": "clf-sc-048",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Config",
+    "question": "Which service tracks configuration changes to AWS resources?",
+    "options": [
+      "AWS Config",
+      "CloudWatch",
+      "EC2",
+      "Lambda"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Config monitors and records configuration changes."
+  },
+  {
+    "id": "clf-sc-049",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 3,
+    "service": "Encryption",
+    "question": "Which AWS service allows automatic encryption of EBS volumes?",
+    "options": [
+      "KMS",
+      "CloudTrail",
+      "IAM",
+      "CloudFront"
+    ],
+    "correctAnswer": 0,
+    "explanation": "KMS manages encryption keys used for EBS encryption."
+  },
+  {
+    "id": "clf-sc-050",
+    "exam": "CLF-C02",
+    "domain": "Security & Compliance",
+    "difficulty": 2,
+    "service": "Shared Responsibility",
+    "question": "Under the shared responsibility model, who is responsible for patching the guest operating system on EC2?",
+    "options": [
+      "AWS",
+      "Customer",
+      "AWS and Customer equally",
+      "Third-party auditor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Customers are responsible for managing and patching the guest OS."
+  },
+   {
+    "id": "clf-tech-001",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 1,
+    "service": "EC2",
+    "question": "Which AWS service provides resizable virtual servers in the cloud?",
+    "options": [
+      "Amazon EC2",
+      "Amazon S3",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon EC2 provides scalable virtual servers."
+  },
+  {
+    "id": "clf-tech-002",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 1,
+    "service": "S3",
+    "question": "Which AWS service provides object storage?",
+    "options": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon EC2",
+      "AWS Lambda"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon S3 is an object storage service."
+  },
+  {
+    "id": "clf-tech-003",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 1,
+    "service": "RDS",
+    "question": "Which service provides managed relational databases?",
+    "options": [
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "Amazon EC2",
+      "AWS Fargate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon RDS manages relational database engines."
+  },
+  {
+    "id": "clf-tech-004",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 2,
+    "service": "Lambda",
+    "question": "Which AWS service runs code without provisioning servers?",
+    "options": [
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon VPC"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AWS Lambda enables serverless computing."
+  },
+  {
+    "id": "clf-tech-005",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 2,
+    "service": "VPC",
+    "question": "Which AWS service allows you to create an isolated virtual network?",
+    "options": [
+      "Amazon VPC",
+      "Amazon S3",
+      "CloudFront",
+      "IAM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon VPC enables creation of isolated networks."
+  },
+  {
+    "id": "clf-tech-006",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 2,
+    "service": "CloudFront",
+    "question": "Which AWS service is a content delivery network (CDN)?",
+    "options": [
+      "CloudFront",
+      "Route 53",
+      "IAM",
+      "EC2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CloudFront delivers content globally with low latency."
+  },
+  {
+    "id": "clf-tech-007",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 2,
+    "service": "Route 53",
+    "question": "Which AWS service provides DNS functionality?",
+    "options": [
+      "Route 53",
+      "CloudFront",
+      "S3",
+      "RDS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Route 53 is AWS's scalable DNS service."
+  },
+  {
+    "id": "clf-tech-008",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 2,
+    "service": "EBS",
+    "question": "Which storage type is attached to an EC2 instance as block storage?",
+    "options": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon Glacier",
+      "AWS Backup"
+    ],
+    "correctAnswer": 1,
+    "explanation": "EBS provides persistent block storage for EC2."
+  },
+  {
+    "id": "clf-tech-009",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "DynamoDB",
+    "question": "Which AWS database service is fully managed and NoSQL?",
+    "options": [
+      "Amazon RDS",
+      "Amazon Redshift",
+      "Amazon DynamoDB",
+      "Amazon Aurora"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DynamoDB is a fully managed NoSQL database."
+  },
+  {
+    "id": "clf-tech-010",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 2,
+    "service": "ELB",
+    "question": "Which AWS service distributes incoming application traffic across multiple targets?",
+    "options": [
+      "Elastic Load Balancing",
+      "CloudTrail",
+      "IAM",
+      "CloudWatch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elastic Load Balancing distributes traffic for high availability."
+  },
+  {
+    "id": "clf-tech-011",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 2,
+    "service": "S3",
+    "question": "Which S3 storage class is designed for long-term archival?",
+    "options": [
+      "S3 Standard",
+      "S3 Intelligent-Tiering",
+      "S3 Glacier",
+      "S3 One Zone-IA"
+    ],
+    "correctAnswer": 2,
+    "explanation": "S3 Glacier is optimized for long-term archival."
+  },
+  {
+    "id": "clf-tech-012",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Auto Scaling",
+    "question": "Which AWS service automatically adjusts EC2 capacity based on demand?",
+    "options": [
+      "Auto Scaling",
+      "IAM",
+      "CloudTrail",
+      "Route 53"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Auto Scaling adjusts EC2 capacity automatically."
+  },
+  {
+    "id": "clf-tech-013",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 2,
+    "service": "Redshift",
+    "question": "Which AWS service is designed for data warehousing?",
+    "options": [
+      "Amazon Redshift",
+      "Amazon RDS",
+      "Amazon EC2",
+      "Amazon EBS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Redshift is AWS's data warehouse service."
+  },
+  {
+    "id": "clf-tech-014",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "EFS",
+    "question": "Which AWS storage service provides scalable file storage for use with EC2?",
+    "options": [
+      "Amazon EFS",
+      "Amazon S3",
+      "Amazon Glacier",
+      "AWS Backup"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EFS provides scalable file storage accessible from multiple EC2 instances."
+  },
+  {
+    "id": "clf-tech-015",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 2,
+    "service": "Fargate",
+    "question": "Which AWS service allows running containers without managing servers?",
+    "options": [
+      "AWS Fargate",
+      "Amazon EC2",
+      "Amazon RDS",
+      "IAM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fargate runs containers without provisioning servers."
+  },
+
+  {  "id": "clf-tech-016",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "EC2",
+    "question": "A company runs a web application with unpredictable traffic spikes. They want the system to scale automatically and maintain high availability. Which solution is MOST appropriate?",
+    "options": [
+      "Single EC2 instance",
+      "EC2 with Auto Scaling and Elastic Load Balancer",
+      "On-premises server",
+      "Manual scaling of EC2 instances"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Auto Scaling combined with ELB provides automatic scaling and high availability."
+  },
+  {
+    "id": "clf-tech-017",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "S3",
+    "question": "A company needs highly durable storage for backup files that must be retained for 7 years and accessed rarely. Which storage class is MOST cost-effective?",
+    "options": [
+      "S3 Standard",
+      "S3 Intelligent-Tiering",
+      "S3 Glacier Deep Archive",
+      "Amazon EFS"
+    ],
+    "correctAnswer": 2,
+    "explanation": "S3 Glacier Deep Archive provides the lowest-cost storage for long-term archival."
+  },
+  {
+    "id": "clf-tech-018",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "RDS",
+    "question": "A company wants a managed relational database solution without managing OS patching or backups. Which service should they choose?",
+    "options": [
+      "Amazon EC2 with MySQL installed",
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Amazon RDS provides managed relational databases including automated patching and backups."
+  },
+  {
+    "id": "clf-tech-019",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Lambda",
+    "question": "A startup wants to run backend code in response to file uploads in S3 without managing servers. Which solution requires the LEAST operational overhead?",
+    "options": [
+      "EC2 instance",
+      "AWS Lambda",
+      "On-premises server",
+      "Amazon RDS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AWS Lambda runs code serverlessly without managing infrastructure."
+  },
+  {
+    "id": "clf-tech-020",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "CloudFront",
+    "question": "A company wants to reduce latency for users globally when accessing static website content. Which solution is MOST effective?",
+    "options": [
+      "Deploy in a single region",
+      "Use Amazon CloudFront",
+      "Use a larger EC2 instance",
+      "Use on-premises servers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CloudFront is a CDN that reduces latency by caching content at edge locations."
+  },
+  {
+    "id": "clf-tech-021",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "VPC",
+    "question": "A company wants to isolate its AWS resources within a private network and control inbound and outbound traffic. Which service should they use?",
+    "options": [
+      "Amazon VPC",
+      "Amazon S3",
+      "AWS Lambda",
+      "CloudFront"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon VPC provides network isolation and traffic control."
+  },
+  {
+    "id": "clf-tech-022",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "DynamoDB",
+    "question": "An application requires millisecond latency and massive scalability for key-value data. Which database service is MOST suitable?",
+    "options": [
+      "Amazon RDS",
+      "Amazon Redshift",
+      "Amazon DynamoDB",
+      "Amazon Aurora"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DynamoDB provides low-latency, highly scalable NoSQL storage."
+  },
+  {
+    "id": "clf-tech-023",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Auto Scaling",
+    "question": "Which AWS service ensures that the correct number of EC2 instances are running to handle load changes automatically?",
+    "options": [
+      "IAM",
+      "Auto Scaling",
+      "CloudTrail",
+      "Route 53"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Auto Scaling automatically adjusts EC2 capacity."
+  },
+  {
+    "id": "clf-tech-024",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "EBS",
+    "question": "A company needs persistent block storage for a single EC2 instance database. Which service should they use?",
+    "options": [
+      "Amazon S3",
+      "Amazon EBS",
+      "Amazon Glacier",
+      "CloudFront"
+    ],
+    "correctAnswer": 1,
+    "explanation": "EBS provides persistent block storage for EC2."
+  },
+  {
+    "id": "clf-tech-025",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Route 53",
+    "question": "A company wants to route users to the nearest AWS region based on latency. Which AWS service supports this requirement?",
+    "options": [
+      "Route 53",
+      "IAM",
+      "CloudTrail",
+      "EBS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Route 53 supports latency-based routing policies."
+  },
+  {
+    "id": "clf-tech-026",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Aurora",
+    "question": "A company requires a relational database with high availability and automatic failover across Availability Zones. Which solution requires the LEAST administrative effort?",
+    "options": [
+      "EC2 with self-managed MySQL",
+      "Amazon Aurora Multi-AZ",
+      "Single EC2 instance",
+      "Amazon DynamoDB"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aurora Multi-AZ provides managed high availability with automatic failover."
+  },
+  {
+    "id": "clf-tech-027",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "S3",
+    "question": "A company needs storage for frequently accessed data with low latency and high durability. Which option is MOST appropriate?",
+    "options": [
+      "S3 Glacier Deep Archive",
+      "S3 Standard",
+      "S3 One Zone-IA",
+      "Amazon EBS Snapshot"
+    ],
+    "correctAnswer": 1,
+    "explanation": "S3 Standard is designed for frequently accessed data with high durability."
+  },
+  {
+    "id": "clf-tech-028",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Fargate",
+    "question": "A company wants to run containerized applications without managing EC2 instances. Which service should they use?",
+    "options": [
+      "Amazon EC2",
+      "AWS Fargate",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fargate runs containers without provisioning or managing servers."
+  },
+  {
+    "id": "clf-tech-029",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "EFS",
+    "question": "Multiple EC2 instances need shared file storage with automatic scaling. Which solution is MOST suitable?",
+    "options": [
+      "Amazon EBS",
+      "Amazon S3",
+      "Amazon EFS",
+      "Instance Store"
+    ],
+    "correctAnswer": 2,
+    "explanation": "EFS provides scalable shared file storage for multiple EC2 instances."
+  },
+  {
+    "id": "clf-tech-030",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "CloudWatch",
+    "question": "A company wants to receive alerts when CPU utilization exceeds a threshold. Which AWS service should they use?",
+    "options": [
+      "CloudTrail",
+      "CloudWatch Alarms",
+      "IAM",
+      "AWS Artifact"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CloudWatch Alarms trigger notifications based on metric thresholds."
+  },
+  {
+    "id": "clf-tech-031",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "S3",
+    "question": "A company needs to host a static website with minimal operational effort. Which service is MOST appropriate?",
+    "options": [
+      "Amazon EC2",
+      "Amazon S3 static website hosting",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "correctAnswer": 1,
+    "explanation": "S3 supports static website hosting with minimal management."
+  },
+  {
+    "id": "clf-tech-032",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Backup",
+    "question": "Which AWS service centralizes and automates backup management across services?",
+    "options": [
+      "AWS Backup",
+      "CloudTrail",
+      "IAM",
+      "Route 53"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Backup centralizes and automates data protection."
+  },
+  {
+    "id": "clf-tech-033",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Elastic Beanstalk",
+    "question": "A developer wants to deploy a web application without managing infrastructure but still control the application code. Which service is MOST appropriate?",
+    "options": [
+      "Elastic Beanstalk",
+      "Amazon EC2 manual setup",
+      "IAM",
+      "Amazon S3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elastic Beanstalk manages infrastructure while allowing code deployment."
+  },
+  {
+    "id": "clf-tech-034",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Direct Connect",
+    "question": "A company needs a dedicated private network connection between its data center and AWS. Which service should they use?",
+    "options": [
+      "AWS Direct Connect",
+      "Internet Gateway",
+      "CloudFront",
+      "IAM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Direct Connect provides dedicated private connectivity to AWS."
+  },
+  {
+    "id": "clf-tech-035",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Storage Gateway",
+    "question": "A company wants to integrate on-premises applications with AWS cloud storage. Which service supports hybrid storage?",
+    "options": [
+      "AWS Storage Gateway",
+      "Amazon EC2",
+      "Amazon DynamoDB",
+      "AWS Lambda"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Storage Gateway connects on-premises environments to AWS storage."
+  },
+  {
+    "id": "clf-tech-036",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Snowball",
+    "question": "A company needs to migrate petabytes of data to AWS with limited internet bandwidth. Which service is MOST appropriate?",
+    "options": [
+      "AWS Snowball",
+      "S3 Transfer Acceleration",
+      "CloudFront",
+      "Route 53"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Snowball provides physical devices for large-scale data transfer."
+  },
+  {
+    "id": "clf-tech-037",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "CloudFormation",
+    "question": "A company wants to provision infrastructure consistently using templates. Which service should they use?",
+    "options": [
+      "CloudFormation",
+      "IAM",
+      "CloudTrail",
+      "S3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CloudFormation uses templates to provision infrastructure as code."
+  },
+  {
+    "id": "clf-tech-038",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Global Accelerator",
+    "question": "A company wants to improve application availability and performance using AWS global network infrastructure. Which service should they use?",
+    "options": [
+      "AWS Global Accelerator",
+      "IAM",
+      "CloudTrail",
+      "EBS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Global Accelerator improves availability and performance using AWS global network."
+  },
+  {
+    "id": "clf-tech-039",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "RDS",
+    "question": "A company wants automated backups and patching for its database without managing infrastructure. Which solution is MOST appropriate?",
+    "options": [
+      "EC2 with manual database setup",
+      "Amazon RDS",
+      "Amazon S3",
+      "DynamoDB with manual configuration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "RDS provides managed database services including automated backups and patching."
+  },
+  {
+    "id": "clf-tech-040",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "S3",
+    "question": "A company wants to automatically move objects between storage classes based on usage patterns. Which solution is MOST suitable?",
+    "options": [
+      "S3 Intelligent-Tiering",
+      "S3 Glacier Deep Archive",
+      "Amazon EBS",
+      "Amazon EFS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "S3 Intelligent-Tiering automatically moves objects between tiers based on access patterns."
+  },
+  {
+    "id": "clf-tech-041",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "ELB",
+    "question": "A company runs its application on multiple EC2 instances across two Availability Zones. They want to distribute incoming traffic evenly and improve availability. Which solution is MOST appropriate?",
+    "options": [
+      "Attach an Elastic Load Balancer",
+      "Use a single EC2 instance",
+      "Deploy in one Availability Zone",
+      "Manually distribute traffic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elastic Load Balancing distributes traffic across instances and improves high availability."
+  },
+  {
+    "id": "clf-tech-042",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "EBS",
+    "question": "A database running on EC2 requires persistent storage that remains available even if the instance stops. Which solution should be used?",
+    "options": [
+      "Instance Store",
+      "Amazon EBS",
+      "Amazon S3",
+      "CloudFront"
+    ],
+    "correctAnswer": 1,
+    "explanation": "EBS provides persistent block storage independent of instance lifecycle."
+  },
+  {
+    "id": "clf-tech-043",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "CloudFront",
+    "question": "A media company wants to securely deliver video content globally with low latency. Which AWS service is MOST suitable?",
+    "options": [
+      "Amazon EC2",
+      "Amazon CloudFront",
+      "Amazon RDS",
+      "Amazon EBS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CloudFront is a global CDN designed for low-latency content delivery."
+  },
+  {
+    "id": "clf-tech-044",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "VPC",
+    "question": "A company wants private EC2 instances that do not have direct internet access but can access the internet for updates. Which solution is MOST appropriate?",
+    "options": [
+      "Internet Gateway only",
+      "NAT Gateway",
+      "Public IP addresses",
+      "CloudFront"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A NAT Gateway allows private instances to access the internet without being publicly accessible."
+  },
+  {
+    "id": "clf-tech-045",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "DynamoDB",
+    "question": "An application requires automatic scaling with no capacity planning and predictable performance. Which database solution requires the LEAST operational effort?",
+    "options": [
+      "Amazon EC2 with MySQL",
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "Self-managed database"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DynamoDB is fully managed and automatically scales without capacity planning."
+  },
+  {
+    "id": "clf-tech-046",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Lambda",
+    "question": "A company wants to process real-time data streams with minimal infrastructure management. Which service is MOST appropriate?",
+    "options": [
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon EBS",
+      "Amazon Redshift"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lambda processes data in real time without server management."
+  },
+  {
+    "id": "clf-tech-047",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Route 53",
+    "question": "A company wants automatic DNS failover between primary and secondary regions. Which AWS service supports this feature?",
+    "options": [
+      "Route 53",
+      "CloudTrail",
+      "IAM",
+      "EFS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Route 53 supports health checks and DNS failover routing."
+  },
+  {
+    "id": "clf-tech-048",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Redshift",
+    "question": "A company needs to analyze large volumes of structured data for business intelligence. Which AWS service is MOST appropriate?",
+    "options": [
+      "Amazon DynamoDB",
+      "Amazon Redshift",
+      "Amazon S3",
+      "Amazon EFS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Redshift is optimized for data warehousing and analytics workloads."
+  },
+  {
+    "id": "clf-tech-049",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Auto Scaling",
+    "question": "A company wants to ensure that at least two EC2 instances are always running to handle load. Which service enforces this automatically?",
+    "options": [
+      "IAM",
+      "Auto Scaling group with minimum capacity set",
+      "CloudTrail",
+      "EBS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Auto Scaling groups maintain a minimum number of running instances."
+  },
+  {
+    "id": "clf-tech-050",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "EFS",
+    "question": "A company requires shared storage accessible from Linux-based EC2 instances in multiple Availability Zones. Which solution is MOST appropriate?",
+    "options": [
+      "Amazon EBS",
+      "Amazon S3",
+      "Amazon EFS",
+      "Instance Store"
+    ],
+    "correctAnswer": 2,
+    "explanation": "EFS provides shared file storage accessible across multiple AZs."
+  },
+  {
+    "id": "clf-tech-051",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Elastic Beanstalk",
+    "question": "A developer wants to quickly deploy a web application without manually configuring load balancers and scaling policies. Which service is MOST suitable?",
+    "options": [
+      "Elastic Beanstalk",
+      "Manual EC2 setup",
+      "IAM",
+      "CloudTrail"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elastic Beanstalk automates provisioning and scaling for applications."
+  },
+  {
+    "id": "clf-tech-052",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Snowball",
+    "question": "A company needs to securely transfer large amounts of data from an on-premises location to AWS in areas with limited connectivity. Which service is MOST appropriate?",
+    "options": [
+      "AWS Snowball",
+      "S3 Standard",
+      "CloudFront",
+      "Route 53"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Snowball allows secure physical transfer of large datasets."
+  },
+  {
+    "id": "clf-tech-053",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "CloudFormation",
+    "question": "A company wants to deploy identical infrastructure environments repeatedly. Which service ensures consistency using templates?",
+    "options": [
+      "CloudFormation",
+      "IAM",
+      "EBS",
+      "CloudTrail"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CloudFormation provisions infrastructure using reusable templates."
+  },
+  {
+    "id": "clf-tech-054",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "S3",
+    "question": "A company wants to reduce storage costs for infrequently accessed data while maintaining rapid retrieval when needed. Which storage class is MOST appropriate?",
+    "options": [
+      "S3 Standard",
+      "S3 One Zone-IA",
+      "S3 Glacier Deep Archive",
+      "S3 Standard-IA"
+    ],
+    "correctAnswer": 3,
+    "explanation": "S3 Standard-IA is designed for infrequently accessed data with rapid retrieval."
+  },
+  {
+    "id": "clf-tech-055",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "VPC",
+    "question": "A company wants to control traffic at the subnet level within a VPC. Which feature should they configure?",
+    "options": [
+      "Security Groups",
+      "Network ACLs",
+      "IAM Policies",
+      "CloudFront"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Network ACLs control traffic at the subnet level."
+  },
+  {
+    "id": "clf-tech-056",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Auto Scaling",
+    "question": "A retail company runs its e-commerce application on Amazon EC2 instances. During major sales events, traffic increases unpredictably and sometimes overwhelms the servers, causing downtime. The company wants a solution that automatically adjusts compute capacity based on demand while maintaining high availability across multiple Availability Zones. Which solution is MOST appropriate?",
+    "options": [
+      "Deploy a single large EC2 instance",
+      "Use an Auto Scaling group with an Application Load Balancer across multiple AZs",
+      "Manually monitor and add EC2 instances when traffic increases",
+      "Move the database to Amazon S3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Auto Scaling with an Application Load Balancer ensures automatic scaling and high availability across multiple AZs."
+  },
+  {
+    "id": "clf-tech-057",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "S3",
+    "question": "A healthcare organization must store patient records for 10 years to meet regulatory requirements. The data is rarely accessed but must remain highly durable and cost-efficient. Which Amazon S3 storage class is MOST cost-effective for this use case?",
+    "options": [
+      "S3 Standard",
+      "S3 Standard-IA",
+      "S3 Glacier Deep Archive",
+      "S3 Intelligent-Tiering"
+    ],
+    "correctAnswer": 2,
+    "explanation": "S3 Glacier Deep Archive provides the lowest-cost storage option for long-term archival data."
+  },
+  {
+    "id": "clf-tech-058",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "RDS",
+    "question": "A startup wants to launch a new application that requires a relational database. The team does not want to manage backups, patching, or database software updates. They also require automatic failover capabilities. Which solution provides the LEAST operational overhead?",
+    "options": [
+      "Install MySQL on an EC2 instance",
+      "Use Amazon RDS with Multi-AZ deployment",
+      "Store structured data in Amazon S3",
+      "Use Amazon DynamoDB for relational workloads"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Amazon RDS with Multi-AZ provides managed backups, patching, and automatic failover."
+  },
+  {
+    "id": "clf-tech-059",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Lambda",
+    "question": "A media company wants to automatically resize images when they are uploaded to an S3 bucket. The company prefers a serverless solution that minimizes infrastructure management and scales automatically based on usage. Which solution is MOST appropriate?",
+    "options": [
+      "Run a permanent EC2 instance to monitor the bucket",
+      "Use AWS Lambda triggered by S3 events",
+      "Download images manually and resize them",
+      "Use Amazon Redshift"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AWS Lambda can be triggered by S3 events and automatically scale without managing servers."
+  },
+  {
+    "id": "clf-tech-060",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "CloudFront",
+    "question": "A global online education platform serves video content to users in multiple continents. Users report latency issues when accessing content from distant regions. The company wants to improve performance without redesigning the application. Which solution is MOST effective?",
+    "options": [
+      "Increase EC2 instance size",
+      "Deploy the application in a single larger region",
+      "Use Amazon CloudFront to cache content at edge locations",
+      "Move all content to Amazon RDS"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CloudFront caches content at edge locations, reducing latency for global users."
+  },
+  {
+    "id": "clf-tech-061",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "VPC",
+    "question": "A financial services company requires strict network isolation for its production environment. The application servers must not be directly accessible from the internet, but administrators need secure remote access. Which solution is MOST appropriate?",
+    "options": [
+      "Place EC2 instances in a public subnet with public IP addresses",
+      "Place EC2 instances in a private subnet and use a bastion host",
+      "Store application servers in Amazon S3",
+      "Disable all networking"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Private subnets with a bastion host provide secure access without exposing instances to the internet."
+  },
+  {
+    "id": "clf-tech-062",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "DynamoDB",
+    "question": "A mobile gaming application requires a highly scalable database capable of handling millions of requests per second with single-digit millisecond latency. The team wants minimal administrative overhead. Which solution is MOST suitable?",
+    "options": [
+      "Amazon EC2 with MySQL",
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "Amazon Redshift"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DynamoDB provides low-latency performance and automatic scaling with minimal management."
+  },
+  {
+    "id": "clf-tech-063",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "EFS",
+    "question": "A company runs containerized workloads across multiple EC2 instances in different Availability Zones. The containers require shared file storage that automatically scales as files are added or removed. Which solution is MOST appropriate?",
+    "options": [
+      "Amazon EBS attached to one instance",
+      "Amazon EFS",
+      "Instance store",
+      "Amazon S3 Glacier"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Amazon EFS provides scalable shared file storage across multiple AZs."
+  },
+  {
+    "id": "clf-tech-064",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "Route 53",
+    "question": "An organization operates applications in two AWS Regions for disaster recovery. They want automatic failover to the secondary Region if the primary Region becomes unavailable. Which service enables this functionality?",
+    "options": [
+      "Amazon Route 53 with health checks",
+      "Amazon EC2 Auto Scaling",
+      "AWS IAM",
+      "Amazon EBS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Route 53 supports DNS failover using health checks."
+  },
+  {
+    "id": "clf-tech-065",
+    "exam": "CLF-C02",
+    "domain": "Technology",
+    "difficulty": 3,
+    "service": "CloudFormation",
+    "question": "A DevOps team wants to deploy identical infrastructure stacks across development, staging, and production environments with minimal manual effort and consistent configuration. Which AWS service is MOST appropriate?",
+    "options": [
+      "AWS CloudFormation",
+      "Amazon EC2 manual configuration",
+      "AWS IAM",
+      "Amazon S3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CloudFormation uses templates to provision infrastructure consistently."
+  },
+  {
+"id":"clf-tech-066",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Elastic Beanstalk",
+"question":"A small development team wants to deploy a web application quickly without managing infrastructure components such as load balancers, Auto Scaling groups, or operating system patching. However, they still want control over the application code. Which AWS service provides the MOST appropriate solution?",
+"options":[
+"Amazon EC2 with manual configuration",
+"AWS Elastic Beanstalk",
+"Amazon S3",
+"AWS IAM"
+],
+"correctAnswer":1,
+"explanation":"Elastic Beanstalk automates infrastructure provisioning while allowing developers to focus on code."
+},
+{
+"id":"clf-tech-067",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"S3",
+"question":"A company stores frequently accessed images in Amazon S3 but wants to automatically move older images to a lower-cost storage tier without manual intervention. Which solution is MOST appropriate?",
+"options":[
+"S3 Standard only",
+"S3 Intelligent-Tiering",
+"Amazon EBS",
+"Amazon RDS"
+],
+"correctAnswer":1,
+"explanation":"S3 Intelligent-Tiering automatically moves objects between tiers based on access patterns."
+},
+{
+"id":"clf-tech-068",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Direct Connect",
+"question":"A large enterprise requires consistent network performance and a dedicated connection between its on-premises data center and AWS. Which service provides this capability?",
+"options":[
+"AWS Direct Connect",
+"Internet Gateway",
+"CloudFront",
+"Elastic Load Balancing"
+],
+"correctAnswer":0,
+"explanation":"Direct Connect provides a dedicated private network connection to AWS."
+},
+{
+"id":"clf-tech-069",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"EBS",
+"question":"An application requires extremely low-latency block storage attached to a single EC2 instance for a transactional workload. Which service is MOST appropriate?",
+"options":[
+"Amazon S3",
+"Amazon EBS",
+"Amazon Glacier",
+"AWS Backup"
+],
+"correctAnswer":1,
+"explanation":"EBS provides low-latency block storage for EC2 instances."
+},
+{
+"id":"clf-tech-070",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"CloudWatch",
+"question":"A company wants automated notifications when memory usage on EC2 instances exceeds defined thresholds. Which AWS feature enables this functionality?",
+"options":[
+"CloudTrail logs",
+"CloudWatch Alarms",
+"IAM Policies",
+"Route 53"
+],
+"correctAnswer":1,
+"explanation":"CloudWatch Alarms trigger notifications based on monitored metrics."
+},
+
+{
+"id":"clf-tech-071",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Auto Scaling",
+"question":"A gaming application experiences unpredictable usage spikes during new feature releases. The company wants to maintain performance while minimizing costs during low-demand periods. Which solution is MOST cost-effective?",
+"options":[
+"Run maximum EC2 instances at all times",
+"Use Auto Scaling with scaling policies",
+"Use one large EC2 instance",
+"Manually provision servers"
+],
+"correctAnswer":1,
+"explanation":"Auto Scaling adjusts capacity based on demand, optimizing performance and cost."
+},
+{
+"id":"clf-tech-072",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"RDS",
+"question":"A company requires a relational database with automated backups and minimal administrative effort. Which solution is MOST appropriate?",
+"options":[
+"Amazon RDS",
+"Amazon EC2 with database installed",
+"Amazon S3",
+"Amazon DynamoDB"
+],
+"correctAnswer":0,
+"explanation":"RDS provides managed relational databases with automated backups."
+},
+{
+"id":"clf-tech-073",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"S3",
+"question":"A company needs highly durable storage for critical financial reports accessed daily. Which S3 storage class is MOST appropriate?",
+"options":[
+"S3 Glacier Deep Archive",
+"S3 Standard",
+"S3 One Zone-IA",
+"S3 Glacier Instant Retrieval"
+],
+"correctAnswer":1,
+"explanation":"S3 Standard is designed for frequently accessed data."
+},
+{
+"id":"clf-tech-074",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Fargate",
+"question":"A company wants to run containers without managing servers or clusters. Which AWS service provides this functionality?",
+"options":[
+"Amazon EC2",
+"AWS Fargate",
+"Amazon RDS",
+"Amazon S3"
+],
+"correctAnswer":1,
+"explanation":"Fargate runs containers without managing underlying servers."
+},
+{
+"id":"clf-tech-075",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Redshift",
+"question":"A data analytics team needs to run complex queries across petabytes of structured data. Which service is MOST appropriate?",
+"options":[
+"Amazon DynamoDB",
+"Amazon Redshift",
+"Amazon EC2",
+"Amazon EBS"
+],
+"correctAnswer":1,
+"explanation":"Redshift is designed for large-scale data warehousing and analytics."
+},
+{
+"id":"clf-tech-076",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"S3",
+"question":"A media company needs to store video recordings that are accessed once every few months but must be retrieved within minutes when requested. The company wants to reduce storage costs while maintaining fast retrieval times. Which Amazon S3 storage class is MOST appropriate?",
+"options":[
+"S3 Standard",
+"S3 Standard-IA",
+"S3 Glacier Deep Archive",
+"S3 One Zone-IA"
+],
+"correctAnswer":1,
+"explanation":"S3 Standard-IA is designed for infrequently accessed data with rapid retrieval."
+},
+{
+"id":"clf-tech-077",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Lambda",
+"question":"A startup wants to process incoming API requests without provisioning servers. The workload is event-driven and varies significantly throughout the day. The company wants automatic scaling and billing only for execution time. Which solution is MOST appropriate?",
+"options":[
+"Amazon EC2",
+"AWS Lambda",
+"Amazon RDS",
+"AWS Direct Connect"
+],
+"correctAnswer":1,
+"explanation":"AWS Lambda provides serverless compute that automatically scales and charges only for execution time."
+},
+{
+"id":"clf-tech-078",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"EFS",
+"question":"A company runs analytics workloads on multiple EC2 instances simultaneously and requires shared file storage that grows automatically as data increases. Which solution provides the LEAST operational overhead?",
+"options":[
+"Amazon EBS attached to one instance",
+"Amazon EFS",
+"Instance store",
+"Amazon S3 Glacier"
+],
+"correctAnswer":1,
+"explanation":"EFS provides automatically scaling shared file storage accessible from multiple instances."
+},
+{
+"id":"clf-tech-079",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Global Accelerator",
+"question":"A global SaaS company wants to improve application availability and route users through the AWS global network infrastructure for optimal performance. Which service is MOST appropriate?",
+"options":[
+"AWS Global Accelerator",
+"Amazon Route 53 basic routing",
+"IAM",
+"Amazon EBS"
+],
+"correctAnswer":0,
+"explanation":"Global Accelerator routes traffic through AWS's global network to improve performance and availability."
+},
+{
+"id":"clf-tech-080",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"CloudTrail",
+"question":"A company needs to track changes made to AWS resources for auditing purposes and regulatory compliance. Which service provides this functionality?",
+"options":[
+"Amazon CloudTrail",
+"Amazon CloudFront",
+"AWS Lambda",
+"Amazon EFS"
+],
+"correctAnswer":0,
+"explanation":"CloudTrail records API activity and changes within AWS accounts."
+},
+{
+"id":"clf-tech-081",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"ELB",
+"question":"A web application must remain available even if one Availability Zone fails. The company wants traffic automatically routed to healthy instances. Which solution is MOST appropriate?",
+"options":[
+"Single EC2 instance",
+"Application Load Balancer across multiple AZs",
+"Manual DNS updates",
+"Dedicated Host"
+],
+"correctAnswer":1,
+"explanation":"An Application Load Balancer distributes traffic across multiple AZs for high availability."
+},
+{
+"id":"clf-tech-082",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Storage Gateway",
+"question":"An enterprise wants to extend its on-premises storage to AWS while keeping frequently accessed data local. Which AWS service supports this hybrid architecture?",
+"options":[
+"AWS Storage Gateway",
+"Amazon S3 Glacier",
+"Amazon EC2",
+"Amazon DynamoDB"
+],
+"correctAnswer":0,
+"explanation":"Storage Gateway connects on-premises environments with AWS cloud storage."
+},
+{
+"id":"clf-tech-083",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Snowball",
+"question":"A company needs to migrate hundreds of terabytes of data from a remote location with limited internet bandwidth. Which solution is MOST efficient?",
+"options":[
+"S3 Transfer Acceleration",
+"AWS Snowball",
+"Amazon CloudFront",
+"Amazon RDS"
+],
+"correctAnswer":1,
+"explanation":"Snowball enables secure physical transfer of large volumes of data."
+},
+{
+"id":"clf-tech-084",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Route 53",
+"question":"A company wants to route users to different AWS Regions based on latency to improve performance. Which Route 53 routing policy should be used?",
+"options":[
+"Simple routing",
+"Latency-based routing",
+"Failover routing",
+"Multivalue routing"
+],
+"correctAnswer":1,
+"explanation":"Latency-based routing directs users to the region with the lowest latency."
+},
+{
+"id":"clf-tech-085",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"CloudFormation",
+"question":"A DevOps team wants to manage infrastructure deployments using version-controlled templates to ensure consistent environments across accounts. Which service provides this functionality?",
+"options":[
+"AWS CloudFormation",
+"Amazon EC2 manual setup",
+"IAM",
+"Amazon S3"
+],
+"correctAnswer":0,
+"explanation":"CloudFormation allows infrastructure provisioning using version-controlled templates."
+},
+{
+"id":"clf-basic-116",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":1,
+"service":"EC2",
+"question":"Which AWS service provides virtual servers in the cloud?",
+"options":[
+"Amazon EC2",
+"Amazon S3",
+"Amazon RDS",
+"AWS IAM"
+],
+"correctAnswer":0,
+"explanation":"Amazon EC2 provides scalable virtual servers."
+},
+{
+"id":"clf-basic-117",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":1,
+"service":"S3",
+"question":"Which AWS service is primarily used for object storage?",
+"options":[
+"Amazon S3",
+"Amazon EBS",
+"Amazon EC2",
+"Amazon VPC"
+],
+"correctAnswer":0,
+"explanation":"Amazon S3 is AWS object storage service."
+},
+{
+"id":"clf-basic-118",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":1,
+"service":"IAM",
+"question":"Which AWS service manages user permissions?",
+"options":[
+"AWS IAM",
+"Amazon EC2",
+"Amazon S3",
+"Amazon CloudFront"
+],
+"correctAnswer":0,
+"explanation":"IAM controls access to AWS services and resources."
+},
+{
+"id":"clf-basic-119",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":1,
+"service":"Billing",
+"question":"Which pricing model allows customers to pay only for the resources they use without long-term commitment?",
+"options":[
+"Reserved Instances",
+"On-Demand",
+"Dedicated Hosts",
+"Enterprise Contract"
+],
+"correctAnswer":1,
+"explanation":"On-Demand pricing requires no long-term commitment."
+},
+{
+"id":"clf-basic-120",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":1,
+"service":"RDS",
+"question":"Which AWS service provides managed relational databases?",
+"options":[
+"Amazon RDS",
+"Amazon DynamoDB",
+"Amazon S3",
+"AWS Lambda"
+],
+"correctAnswer":0,
+"explanation":"RDS provides managed relational databases."
+},
+{
+"id":"clf-basic-121",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":2,
+"service":"CloudFront",
+"question":"A company wants to reduce latency for global users accessing static content. Which AWS service should they use?",
+"options":[
+"Amazon EC2",
+"Amazon CloudFront",
+"Amazon RDS",
+"Amazon EBS"
+],
+"correctAnswer":1,
+"explanation":"CloudFront caches content at edge locations globally."
+},
+{
+"id":"clf-basic-122",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":2,
+"service":"MFA",
+"question":"A company wants to add an extra layer of protection to user logins. Which feature should they enable?",
+"options":[
+"Multi-Factor Authentication",
+"S3 Versioning",
+"CloudFront",
+"Auto Scaling"
+],
+"correctAnswer":0,
+"explanation":"MFA adds an additional authentication factor."
+},
+{
+"id":"clf-basic-123",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":2,
+"service":"Savings Plans",
+"question":"A company has steady usage of EC2 instances over the next 3 years. Which pricing option offers significant cost savings?",
+"options":[
+"On-Demand",
+"Savings Plans",
+"Free Tier",
+"Spot Instances only"
+],
+"correctAnswer":1,
+"explanation":"Savings Plans provide discounted pricing for long-term commitment."
+},
+{
+"id":"clf-basic-124",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":2,
+"service":"Auto Scaling",
+"question":"Which AWS service automatically adjusts the number of EC2 instances based on demand?",
+"options":[
+"IAM",
+"Auto Scaling",
+"CloudTrail",
+"Route 53"
+],
+"correctAnswer":1,
+"explanation":"Auto Scaling adjusts capacity automatically."
+},
+{
+"id":"clf-basic-125",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":2,
+"service":"CloudTrail",
+"question":"Which AWS service records API calls made within an account?",
+"options":[
+"CloudTrail",
+"CloudWatch",
+"Lambda",
+"EFS"
+],
+"correctAnswer":0,
+"explanation":"CloudTrail logs account activity."
+},
+
+{
+"id":"clf-basic-126",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":1,
+"service":"Lambda",
+"question":"Which AWS service runs code without managing servers?",
+"options":[
+"AWS Lambda",
+"Amazon EC2",
+"Amazon RDS",
+"Amazon VPC"
+],
+"correctAnswer":0,
+"explanation":"Lambda is serverless compute."
+},
+{
+"id":"clf-basic-127",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":1,
+"service":"VPC",
+"question":"Which AWS service enables creation of an isolated virtual network?",
+"options":[
+"Amazon VPC",
+"Amazon S3",
+"IAM",
+"CloudWatch"
+],
+"correctAnswer":0,
+"explanation":"VPC provides network isolation."
+},
+{
+"id":"clf-basic-128",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":1,
+"service":"Billing Dashboard",
+"question":"Where can customers monitor their AWS usage and costs?",
+"options":[
+"AWS Billing Dashboard",
+"IAM",
+"CloudTrail",
+"Route 53"
+],
+"correctAnswer":0,
+"explanation":"The Billing Dashboard tracks usage and costs."
+},
+{
+"id":"clf-basic-129",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":1,
+"service":"KMS",
+"question":"Which AWS service manages encryption keys?",
+"options":[
+"AWS KMS",
+"CloudFront",
+"EC2",
+"Route 53"
+],
+"correctAnswer":0,
+"explanation":"KMS manages encryption keys."
+},
+{
+"id":"clf-basic-130",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":2,
+"service":"EBS",
+"question":"Which storage option provides persistent block storage for EC2?",
+"options":[
+"Amazon EBS",
+"Amazon S3",
+"Amazon Glacier",
+"CloudFront"
+],
+"correctAnswer":0,
+"explanation":"EBS provides block storage attached to EC2."
+},
+{
+"id":"clf-adv-156",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"EC2",
+"question":"A growing e-commerce company runs its application on a single Amazon EC2 instance. During seasonal promotions, traffic increases significantly, causing performance degradation. The company wants a solution that ensures high availability and automatically adjusts capacity based on demand without manual intervention. Which solution is MOST appropriate?",
+"options":[
+"Increase the size of the existing EC2 instance",
+"Deploy the application across multiple Availability Zones using Auto Scaling and an Application Load Balancer",
+"Manually add EC2 instances during promotions",
+"Move the application to a larger on-premises server"
+],
+"correctAnswer":1,
+"explanation":"Using Auto Scaling with an Application Load Balancer across multiple AZs provides automatic scaling and high availability."
+},
+{
+"id":"clf-adv-157",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"S3",
+"question":"A financial services company must store compliance reports for 7 years. The data is rarely accessed but must remain highly durable. The company wants to minimize storage costs while maintaining retrieval capability within hours. Which S3 storage class is MOST appropriate?",
+"options":[
+"S3 Standard",
+"S3 Standard-IA",
+"S3 Glacier Flexible Retrieval",
+"S3 One Zone-IA"
+],
+"correctAnswer":2,
+"explanation":"S3 Glacier Flexible Retrieval is cost-effective for long-term archival with retrieval within hours."
+},
+{
+"id":"clf-adv-158",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"service":"IAM",
+"question":"A company wants to allow an application running on EC2 to securely access objects stored in Amazon S3 without embedding long-term credentials in the application code. Which solution is MOST secure?",
+"options":[
+"Store access keys in the application code",
+"Use the root account credentials",
+"Attach an IAM role to the EC2 instance",
+"Share another user's access keys"
+],
+"correctAnswer":2,
+"explanation":"IAM roles provide temporary credentials to EC2 instances without embedding long-term credentials."
+},
+{
+"id":"clf-adv-159",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"RDS",
+"question":"A company needs a relational database that supports automatic backups, patching, and high availability. The company does not want to manage database software updates. Which solution provides the LEAST operational overhead?",
+"options":[
+"Install MySQL on EC2",
+"Amazon RDS with Multi-AZ deployment",
+"Amazon DynamoDB",
+"Amazon S3"
+],
+"correctAnswer":1,
+"explanation":"Amazon RDS Multi-AZ provides managed backups, patching, and high availability."
+},
+{
+"id":"clf-adv-160",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"CloudFront",
+"question":"A global news website experiences high latency for users outside its primary AWS Region. The company wants to improve performance without redesigning its backend architecture. Which solution is MOST appropriate?",
+"options":[
+"Deploy a larger EC2 instance",
+"Use Amazon CloudFront to cache content at edge locations",
+"Move the application to on-premises servers",
+"Use Amazon EBS"
+],
+"correctAnswer":1,
+"explanation":"CloudFront caches content globally at edge locations to reduce latency."
+},
+{
+"id":"clf-adv-161",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Savings Plans",
+"question":"A company runs steady-state workloads on Amazon EC2 instances for the next three years. The workload is predictable and unlikely to change significantly. Which pricing option provides the MOST cost savings?",
+"options":[
+"On-Demand Instances",
+"Spot Instances",
+"Savings Plans",
+"Free Tier"
+],
+"correctAnswer":2,
+"explanation":"Savings Plans provide discounted pricing for long-term predictable usage."
+},
+{
+"id":"clf-adv-162",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"service":"Shared Responsibility",
+"question":"A company runs applications on Amazon EC2. According to the AWS shared responsibility model, which task is the customer's responsibility?",
+"options":[
+"Maintaining physical data centers",
+"Patching the guest operating system",
+"Securing AWS network infrastructure",
+"Replacing failed hardware"
+],
+"correctAnswer":1,
+"explanation":"Customers are responsible for managing and patching the guest OS in EC2."
+},
+{
+"id":"clf-adv-163",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"Auto Scaling",
+"question":"A streaming platform experiences unpredictable traffic spikes. The company wants to ensure that application performance remains stable while minimizing costs during low-traffic periods. Which solution is MOST appropriate?",
+"options":[
+"Run maximum EC2 capacity at all times",
+"Use Auto Scaling with scaling policies",
+"Deploy in a single Availability Zone",
+"Disable scaling"
+],
+"correctAnswer":1,
+"explanation":"Auto Scaling adjusts capacity based on demand, balancing performance and cost."
+},
+{
+"id":"clf-adv-164",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"VPC",
+"question":"A company needs to deploy backend application servers that must not be accessible directly from the internet but must communicate with a public-facing load balancer. Which architecture is MOST appropriate?",
+"options":[
+"Place all instances in public subnets",
+"Place application servers in private subnets behind a load balancer",
+"Assign public IP addresses to all instances",
+"Disable security groups"
+],
+"correctAnswer":1,
+"explanation":"Placing servers in private subnets behind a load balancer enhances security."
+},
+{
+"id":"clf-adv-165",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"service":"DynamoDB",
+"question":"A mobile application requires a database that automatically scales and delivers consistent single-digit millisecond latency at any scale. The team wants minimal management overhead. Which service is MOST appropriate?",
+"options":[
+"Amazon RDS",
+"Amazon EC2 with database",
+"Amazon DynamoDB",
+"Amazon Redshift"
+],
+"correctAnswer":2,
+"explanation":"DynamoDB provides fully managed NoSQL storage with automatic scaling and low latency."
+},
+{
+"id":"clf-adv-166",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Spot Instances",
+"question":"A company runs batch processing jobs that can tolerate interruptions. The company wants to reduce compute costs as much as possible. Which pricing option is MOST cost-effective?",
+"options":[
+"On-Demand Instances",
+"Reserved Instances",
+"Spot Instances",
+"Dedicated Hosts"
+],
+"correctAnswer":2,
+"explanation":"Spot Instances provide significant discounts for interruptible workloads."
+},
+{
+"id":"clf-adv-167",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"service":"MFA",
+"question":"An organization wants to secure its AWS root account against unauthorized access. Which action provides the MOST effective additional protection?",
+"options":[
+"Create additional IAM users",
+"Enable Multi-Factor Authentication (MFA) on the root account",
+"Share root credentials securely",
+"Disable IAM roles"
+],
+"correctAnswer":1,
+"explanation":"Enabling MFA on the root account provides strong additional security protection."
+},
+{
+"id":"clf-bill-168",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Savings Plans",
+"question":"A company runs steady-state EC2 workloads 24/7 and expects usage to remain consistent for the next three years. The company wants to reduce costs while maintaining flexibility across instance families. Which pricing option is MOST cost-effective?",
+"options":[
+"On-Demand Instances",
+"Reserved Instances (Standard)",
+"Savings Plans",
+"Spot Instances"
+],
+"correctAnswer":2,
+"explanation":"Savings Plans provide significant discounts while offering flexibility across instance types and regions."
+},
+{
+"id":"clf-bill-169",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Spot Instances",
+"question":"A data analytics team runs fault-tolerant batch jobs that can be interrupted and restarted without impact. The team wants to minimize compute costs. Which pricing model should they use?",
+"options":[
+"On-Demand Instances",
+"Dedicated Hosts",
+"Spot Instances",
+"Reserved Instances"
+],
+"correctAnswer":2,
+"explanation":"Spot Instances provide the highest discounts for interruptible workloads."
+},
+{
+"id":"clf-bill-170",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"On-Demand",
+"question":"A startup launches a new application with unpredictable traffic patterns and no long-term usage estimates. Which pricing option provides the MOST flexibility without commitment?",
+"options":[
+"Reserved Instances",
+"Savings Plans",
+"On-Demand Instances",
+"Dedicated Hosts"
+],
+"correctAnswer":2,
+"explanation":"On-Demand pricing allows flexibility with no upfront commitment."
+},
+{
+"id":"clf-bill-171",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Free Tier",
+"question":"A new AWS customer wants to test services without incurring charges. Which program allows limited usage of certain services at no cost for a defined period?",
+"options":[
+"Savings Plans",
+"AWS Free Tier",
+"Spot Instances",
+"Enterprise Discount Program"
+],
+"correctAnswer":1,
+"explanation":"The AWS Free Tier provides limited free usage for eligible services."
+},
+{
+"id":"clf-bill-172",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Cost Explorer",
+"question":"A company wants to analyze historical AWS spending trends and forecast future costs. Which AWS tool provides this functionality?",
+"options":[
+"AWS Cost Explorer",
+"Amazon CloudTrail",
+"AWS IAM",
+"Amazon VPC"
+],
+"correctAnswer":0,
+"explanation":"Cost Explorer provides cost analysis and forecasting."
+},
+{
+"id":"clf-bill-173",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Reserved Instances",
+"question":"A company runs a fixed EC2 instance type continuously for 3 years in a single Region. Which purchasing option provides the MOST savings?",
+"options":[
+"On-Demand Instances",
+"Spot Instances",
+"Standard Reserved Instances",
+"S3 Intelligent-Tiering"
+],
+"correctAnswer":2,
+"explanation":"Standard Reserved Instances provide significant discounts for predictable workloads."
+},
+{
+"id":"clf-bill-174",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Budgets",
+"question":"A finance team wants to receive alerts when AWS spending exceeds predefined thresholds. Which AWS service should they use?",
+"options":[
+"AWS Budgets",
+"CloudTrail",
+"Auto Scaling",
+"Route 53"
+],
+"correctAnswer":0,
+"explanation":"AWS Budgets provides cost threshold alerts."
+},
+{
+"id":"clf-bill-175",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Consolidated Billing",
+"question":"An organization manages multiple AWS accounts and wants a single combined bill with aggregated usage discounts. Which feature should they use?",
+"options":[
+"AWS Organizations with consolidated billing",
+"Separate billing per account",
+"IAM groups",
+"Elastic Load Balancer"
+],
+"correctAnswer":0,
+"explanation":"AWS Organizations enables consolidated billing across multiple accounts."
+},
+{
+"id":"clf-bill-176",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Data Transfer",
+"question":"Which data transfer scenario generally incurs the HIGHEST cost?",
+"options":[
+"Data transfer within the same Availability Zone",
+"Data transfer between EC2 and S3 in same Region",
+"Data transfer out to the internet",
+"Data transfer between instances in same VPC"
+],
+"correctAnswer":2,
+"explanation":"Data transfer out to the internet typically incurs higher charges."
+},
+{
+"id":"clf-bill-177",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Savings Plans",
+"question":"A company wants discounted pricing that applies across EC2, Fargate, and Lambda usage. Which option provides this flexibility?",
+"options":[
+"Standard Reserved Instances",
+"Savings Plans",
+"Dedicated Hosts",
+"Spot Instances"
+],
+"correctAnswer":1,
+"explanation":"Savings Plans apply to multiple compute services."
+},
+{
+"id":"clf-bill-178",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Spot Instances",
+"question":"Why are Spot Instances significantly cheaper than On-Demand instances?",
+"options":[
+"They run on slower hardware",
+"They can be interrupted by AWS",
+"They have limited storage",
+"They do not scale"
+],
+"correctAnswer":1,
+"explanation":"Spot Instances can be interrupted when AWS needs capacity."
+},
+{
+"id":"clf-bill-179",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"TCO Calculator",
+"question":"A company wants to compare the cost of running workloads on-premises versus AWS. Which AWS tool helps estimate total cost of ownership?",
+"options":[
+"AWS TCO Calculator",
+"AWS CloudTrail",
+"AWS IAM",
+"Amazon EFS"
+],
+"correctAnswer":0,
+"explanation":"The AWS TCO Calculator estimates cost comparisons."
+},
+{
+"id":"clf-bill-180",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Cost Allocation Tags",
+"question":"A company wants to track AWS spending by department. Which feature allows detailed cost categorization?",
+"options":[
+"Cost allocation tags",
+"Security groups",
+"CloudTrail logs",
+"Route 53 routing"
+],
+"correctAnswer":0,
+"explanation":"Cost allocation tags categorize and track spending."
+},
+{
+"id":"clf-bill-181",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Dedicated Hosts",
+"question":"Which pricing option is MOST suitable for workloads that require physical server isolation for compliance reasons?",
+"options":[
+"Spot Instances",
+"On-Demand Instances",
+"Dedicated Hosts",
+"Savings Plans"
+],
+"correctAnswer":2,
+"explanation":"Dedicated Hosts provide physical server isolation."
+},
+{
+"id":"clf-bill-182",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"service":"Right Sizing",
+"question":"A company notices underutilized EC2 instances running continuously. What is the MOST effective action to reduce costs?",
+"options":[
+"Purchase more Reserved Instances",
+"Right-size the instances",
+"Increase instance size",
+"Disable Auto Scaling"
+],
+"correctAnswer":1,
+"explanation":"Right-sizing reduces costs by matching instance size to workload requirements."
+},
+{
+"id":"clf-ms-183",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to secure its AWS root account against unauthorized access. Which TWO actions should the company take? (Select TWO.)",
+"options":[
+"Enable Multi-Factor Authentication (MFA)",
+"Use the root account for daily tasks",
+"Create IAM users for administrative access",
+"Share root credentials with the IT team",
+"Disable IAM roles"
+],
+"correctAnswers":[0,2],
+"explanation":"Root account should have MFA enabled and should not be used daily. IAM users should be created for administrative tasks."
+},
+{
+"id":"clf-ms-184",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to design a highly available architecture on AWS. Which TWO actions help improve availability? (Select TWO.)",
+"options":[
+"Deploy resources in multiple Availability Zones",
+"Use a single EC2 instance",
+"Use Elastic Load Balancing",
+"Store all data on instance store volumes",
+"Disable Auto Scaling"
+],
+"correctAnswers":[0,2],
+"explanation":"Using multiple AZs and Elastic Load Balancing improves high availability."
+},
+{
+"id":"clf-ms-185",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company runs predictable workloads for the next three years. Which TWO pricing options provide cost savings compared to On-Demand pricing? (Select TWO.)",
+"options":[
+"Savings Plans",
+"Spot Instances",
+"Reserved Instances",
+"Dedicated Hosts only",
+"Free Tier"
+],
+"correctAnswers":[0,2],
+"explanation":"Savings Plans and Reserved Instances offer discounted pricing for predictable workloads."
+},
+{
+"id":"clf-ms-186",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO services help detect security threats in AWS? (Select TWO.)",
+"options":[
+"AWS GuardDuty",
+"AWS Shield",
+"AWS IAM",
+"AWS Config",
+"Amazon EC2"
+],
+"correctAnswers":[0,1],
+"explanation":"GuardDuty provides threat detection, and Shield provides DDoS protection."
+},
+{
+"id":"clf-ms-187",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to run a containerized application without managing servers. Which TWO AWS services support this requirement? (Select TWO.)",
+"options":[
+"AWS Fargate",
+"Amazon ECS",
+"Amazon EC2 (manual management)",
+"Amazon S3",
+"Amazon RDS"
+],
+"correctAnswers":[0,1],
+"explanation":"ECS with Fargate allows running containers without managing servers."
+},
+{
+"id":"clf-ms-188",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"Under the AWS shared responsibility model, which TWO responsibilities belong to the customer? (Select TWO.)",
+"options":[
+"Managing IAM users and permissions",
+"Patching the guest operating system on EC2",
+"Maintaining AWS data centers",
+"Replacing physical servers",
+"Managing AWS network hardware"
+],
+"correctAnswers":[0,1],
+"explanation":"Customers manage IAM and guest OS patching in EC2."
+},
+{
+"id":"clf-ms-189",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to reduce latency for global users accessing static content. Which TWO services can help achieve this? (Select TWO.)",
+"options":[
+"Amazon CloudFront",
+"Deploying in multiple Regions",
+"Using a larger EC2 instance",
+"Amazon IAM",
+"Disabling caching"
+],
+"correctAnswers":[0,1],
+"explanation":"CloudFront and multi-region deployment reduce latency."
+},
+{
+"id":"clf-ms-190",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO AWS tools help monitor and control AWS spending? (Select TWO.)",
+"options":[
+"AWS Budgets",
+"AWS Cost Explorer",
+"Amazon Route 53",
+"Amazon EFS",
+"AWS Lambda"
+],
+"correctAnswers":[0,1],
+"explanation":"Budgets and Cost Explorer help track and manage AWS costs."
+},
+{
+"id":"clf-ms-191",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO storage services provide persistent storage for EC2 instances? (Select TWO.)",
+"options":[
+"Amazon EBS",
+"Amazon EFS",
+"Instance Store",
+"Amazon CloudFront",
+"AWS IAM"
+],
+"correctAnswers":[0,1],
+"explanation":"EBS and EFS provide persistent storage. Instance store is ephemeral."
+},
+{
+"id":"clf-ms-192",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to restrict permissions across multiple AWS accounts centrally. Which TWO features support this? (Select TWO.)",
+"options":[
+"AWS Organizations",
+"Service Control Policies (SCPs)",
+"IAM user passwords",
+"Security Groups",
+"Amazon S3"
+],
+"correctAnswers":[0,1],
+"explanation":"AWS Organizations with SCPs allows centralized permission control."
+},
+{
+"id":"clf-ms-193",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to build a highly available web application architecture. Which TWO components are required to distribute traffic and maintain availability across multiple Availability Zones? (Select TWO.)",
+"options":[
+"Application Load Balancer",
+"Auto Scaling group",
+"Single EC2 instance",
+"Amazon S3 Glacier",
+"AWS IAM"
+],
+"correctAnswers":[0,1],
+"explanation":"An Application Load Balancer distributes traffic and an Auto Scaling group maintains capacity across AZs."
+},
+{
+"id":"clf-ms-194",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to reduce compute costs for predictable long-term workloads. Which TWO pricing models offer discounted rates compared to On-Demand? (Select TWO.)",
+"options":[
+"Savings Plans",
+"Reserved Instances",
+"Spot Instances",
+"Dedicated Hosts only",
+"Free Tier"
+],
+"correctAnswers":[0,1],
+"explanation":"Savings Plans and Reserved Instances provide discounts for long-term predictable usage."
+},
+{
+"id":"clf-ms-195",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to monitor configuration changes and detect compliance violations in its AWS environment. Which TWO services should be used? (Select TWO.)",
+"options":[
+"AWS Config",
+"AWS CloudTrail",
+"Amazon Route 53",
+"Amazon EBS",
+"AWS Direct Connect"
+],
+"correctAnswers":[0,1],
+"explanation":"AWS Config monitors configuration compliance, and CloudTrail records API activity."
+},
+{
+"id":"clf-ms-196",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to store data with high durability and replicate it across multiple Availability Zones automatically. Which TWO services provide this capability? (Select TWO.)",
+"options":[
+"Amazon S3",
+"Amazon RDS Multi-AZ",
+"Instance Store",
+"Amazon EC2 local storage",
+"Amazon Snowball"
+],
+"correctAnswers":[0,1],
+"explanation":"S3 automatically replicates across AZs, and RDS Multi-AZ provides replication for high availability."
+},
+{
+"id":"clf-ms-197",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO AWS services help protect web applications from common exploits and DDoS attacks? (Select TWO.)",
+"options":[
+"AWS WAF",
+"AWS Shield",
+"AWS IAM",
+"Amazon RDS",
+"AWS Cost Explorer"
+],
+"correctAnswers":[0,1],
+"explanation":"WAF protects against web exploits, and Shield protects against DDoS attacks."
+},
+{
+"id":"clf-ms-198",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A finance team wants visibility into AWS spending and cost allocation by department. Which TWO features should they use? (Select TWO.)",
+"options":[
+"Cost allocation tags",
+"AWS Cost Explorer",
+"Amazon CloudFront",
+"IAM groups",
+"Amazon DynamoDB"
+],
+"correctAnswers":[0,1],
+"explanation":"Cost allocation tags categorize costs and Cost Explorer provides spending analysis."
+},
+{
+"id":"clf-ms-199",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to ensure private EC2 instances can access the internet for updates without being directly reachable from the internet. Which TWO components are required? (Select TWO.)",
+"options":[
+"NAT Gateway",
+"Internet Gateway",
+"Public IP address on instances",
+"Disable security groups",
+"Dedicated Host"
+],
+"correctAnswers":[0,1],
+"explanation":"An Internet Gateway connects the VPC to the internet, and a NAT Gateway enables outbound access for private instances."
+},
+{
+"id":"clf-ms-200",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to run containerized applications without managing underlying infrastructure. Which TWO AWS services can meet this requirement? (Select TWO.)",
+"options":[
+"AWS Fargate",
+"Amazon ECS",
+"Amazon EC2 manual provisioning",
+"Amazon S3",
+"AWS IAM"
+],
+"correctAnswers":[0,1],
+"explanation":"ECS with Fargate enables container execution without managing servers."
+},
+{
+"id":"clf-ms-201",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants centralized control and governance across multiple AWS accounts. Which TWO features enable this? (Select TWO.)",
+"options":[
+"AWS Organizations",
+"Service Control Policies (SCPs)",
+"IAM user passwords",
+"Amazon CloudFront",
+"Amazon EBS"
+],
+"correctAnswers":[0,1],
+"explanation":"AWS Organizations combined with SCPs allows centralized governance."
+},
+{
+"id":"clf-ms-202",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company runs fault-tolerant batch processing jobs. Which TWO pricing models are MOST cost-effective for interruptible workloads? (Select TWO.)",
+"options":[
+"Spot Instances",
+"Savings Plans",
+"On-Demand Instances",
+"Dedicated Hosts",
+"Free Tier"
+],
+"correctAnswers":[0,1],
+"explanation":"Spot Instances provide deep discounts for interruptible workloads, and Savings Plans offer discounted pricing for steady usage."
+},
+{
+"id":"clf-ms-203",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to design a fault-tolerant architecture that can withstand the failure of a single Availability Zone. Which TWO design decisions support this requirement? (Select TWO.)",
+"options":[
+"Deploy resources across multiple Availability Zones",
+"Use an Elastic Load Balancer",
+"Deploy everything in one AZ",
+"Disable Auto Scaling",
+"Use instance store only"
+],
+"correctAnswers":[0,1],
+"explanation":"Deploying across multiple AZs and using ELB ensures high availability and fault tolerance."
+},
+{
+"id":"clf-ms-204",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO AWS services provide encryption capabilities for protecting data? (Select TWO.)",
+"options":[
+"AWS Key Management Service (KMS)",
+"Amazon S3 server-side encryption",
+"Amazon Route 53",
+"Amazon CloudWatch",
+"AWS Budgets"
+],
+"correctAnswers":[0,1],
+"explanation":"KMS manages encryption keys and S3 supports server-side encryption."
+},
+{
+"id":"clf-ms-205",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to reduce EC2 costs for workloads that run continuously for three years with no interruptions allowed. Which TWO pricing options provide discounted pricing without interruption risk? (Select TWO.)",
+"options":[
+"Standard Reserved Instances",
+"Savings Plans",
+"Spot Instances",
+"Free Tier",
+"Dedicated Hosts (On-Demand)"
+],
+"correctAnswers":[0,1],
+"explanation":"Reserved Instances and Savings Plans offer discounted rates for predictable usage without interruption."
+},
+{
+"id":"clf-ms-206",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to reduce latency for users accessing its application globally. Which TWO strategies help achieve this goal? (Select TWO.)",
+"options":[
+"Use Amazon CloudFront",
+"Deploy the application in multiple Regions",
+"Use a single large EC2 instance",
+"Disable caching",
+"Store data only in one AZ"
+],
+"correctAnswers":[0,1],
+"explanation":"CloudFront and multi-region deployment reduce latency for global users."
+},
+{
+"id":"clf-ms-207",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"Under the AWS shared responsibility model, which TWO security responsibilities are managed by AWS? (Select TWO.)",
+"options":[
+"Physical security of data centers",
+"Hardware maintenance",
+"Managing IAM users",
+"Patching the guest operating system",
+"Configuring security groups"
+],
+"correctAnswers":[0,1],
+"explanation":"AWS manages physical security and hardware infrastructure."
+},
+{
+"id":"clf-ms-208",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants persistent storage that can be accessed by multiple EC2 instances simultaneously. Which TWO services provide this capability? (Select TWO.)",
+"options":[
+"Amazon EFS",
+"Amazon FSx",
+"Amazon EBS (single attachment)",
+"Instance Store",
+"Amazon CloudFront"
+],
+"correctAnswers":[0,1],
+"explanation":"EFS and FSx provide shared file storage across multiple instances."
+},
+{
+"id":"clf-ms-209",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO actions help optimize AWS costs? (Select TWO.)",
+"options":[
+"Right-size EC2 instances",
+"Enable Auto Scaling",
+"Disable monitoring",
+"Purchase unnecessary Reserved Instances",
+"Use only On-Demand for steady workloads"
+],
+"correctAnswers":[0,1],
+"explanation":"Right-sizing and Auto Scaling help reduce waste and optimize costs."
+},
+{
+"id":"clf-ms-210",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to centrally manage multiple AWS accounts and enforce governance guardrails. Which TWO services support this requirement? (Select TWO.)",
+"options":[
+"AWS Organizations",
+"Service Control Policies (SCPs)",
+"Amazon CloudWatch",
+"Amazon EC2",
+"AWS Lambda"
+],
+"correctAnswers":[0,1],
+"explanation":"AWS Organizations with SCPs enables centralized governance across accounts."
+},
+{
+"id":"clf-ms-211",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to ensure data durability across multiple Availability Zones automatically. Which TWO services provide built-in multi-AZ durability? (Select TWO.)",
+"options":[
+"Amazon S3",
+"Amazon RDS Multi-AZ",
+"Instance Store",
+"Single EC2 instance",
+"Local storage"
+],
+"correctAnswers":[0,1],
+"explanation":"S3 replicates across AZs automatically, and RDS Multi-AZ provides redundancy."
+},
+{
+"id":"clf-ms-212",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO AWS services help forecast and manage future cloud spending? (Select TWO.)",
+"options":[
+"AWS Cost Explorer",
+"AWS Budgets",
+"Amazon Route 53",
+"Amazon EBS",
+"AWS Shield"
+],
+"correctAnswers":[0,1],
+"explanation":"Cost Explorer provides forecasting, and Budgets allows proactive cost monitoring."
+},
+{
+"id":"clf-ms-213",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to ensure that its application can automatically scale out during traffic spikes and scale in during low demand to reduce costs. Which TWO AWS services work together to accomplish this? (Select TWO.)",
+"options":[
+"Auto Scaling group",
+"Application Load Balancer",
+"Amazon Route 53 only",
+"Dedicated Host",
+"AWS Artifact"
+],
+"correctAnswers":[0,1],
+"explanation":"An Auto Scaling group adjusts capacity automatically, and an Application Load Balancer distributes traffic."
+},
+{
+"id":"clf-ms-214",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to prevent accidental public exposure of data stored in Amazon S3. Which TWO features help achieve this? (Select TWO.)",
+"options":[
+"S3 Block Public Access",
+"IAM bucket policies",
+"Disabling versioning",
+"Using instance store",
+"Deleting CloudTrail logs"
+],
+"correctAnswers":[0,1],
+"explanation":"S3 Block Public Access and properly configured IAM bucket policies prevent unintended public exposure."
+},
+{
+"id":"clf-ms-215",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company runs non-critical workloads that can tolerate interruptions. Which TWO purchasing options could significantly reduce costs? (Select TWO.)",
+"options":[
+"Spot Instances",
+"Savings Plans",
+"On-Demand Instances",
+"Dedicated Hosts",
+"Free Tier only"
+],
+"correctAnswers":[0,1],
+"explanation":"Spot Instances offer deep discounts for interruptible workloads, and Savings Plans provide discounted rates for committed usage."
+},
+{
+"id":"clf-ms-216",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company needs to monitor application performance metrics and receive alerts when thresholds are exceeded. Which TWO AWS services provide this capability? (Select TWO.)",
+"options":[
+"Amazon CloudWatch",
+"CloudWatch Alarms",
+"AWS Shield",
+"Amazon Route 53",
+"AWS Snowball"
+],
+"correctAnswers":[0,1],
+"explanation":"CloudWatch collects metrics, and CloudWatch Alarms trigger notifications based on thresholds."
+},
+{
+"id":"clf-ms-217",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to audit API calls and track changes to AWS resources. Which TWO services help meet this requirement? (Select TWO.)",
+"options":[
+"Amazon CloudTrail",
+"AWS Config",
+"Amazon EC2",
+"Amazon S3 Glacier",
+"AWS Direct Connect"
+],
+"correctAnswers":[0,1],
+"explanation":"CloudTrail logs API calls, and AWS Config tracks configuration changes."
+},
+{
+"id":"clf-ms-218",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company needs shared file storage that integrates with Windows-based workloads running on EC2 instances. Which TWO AWS services are appropriate? (Select TWO.)",
+"options":[
+"Amazon FSx for Windows File Server",
+"Amazon EFS",
+"Instance Store",
+"Amazon S3 Glacier",
+"Amazon Redshift"
+],
+"correctAnswers":[0,1],
+"explanation":"FSx for Windows supports Windows file systems, and EFS provides shared scalable file storage."
+},
+{
+"id":"clf-ms-219",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to ensure cost visibility and accountability across different teams. Which TWO actions support this goal? (Select TWO.)",
+"options":[
+"Use cost allocation tags",
+"Create AWS Budgets for each team",
+"Disable billing alerts",
+"Use a single shared root account",
+"Disable Cost Explorer"
+],
+"correctAnswers":[0,1],
+"explanation":"Cost allocation tags categorize costs, and AWS Budgets allow monitoring per team."
+},
+{
+"id":"clf-ms-220",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to migrate large volumes of data from on-premises storage to AWS. Which TWO AWS services help with large-scale data transfer? (Select TWO.)",
+"options":[
+"AWS Snowball",
+"AWS DataSync",
+"Amazon Route 53",
+"AWS IAM",
+"Amazon EBS"
+],
+"correctAnswers":[0,1],
+"explanation":"Snowball supports physical data transfer, and DataSync enables automated online transfers."
+},
+{
+"id":"clf-ms-221",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO AWS services provide automated threat detection capabilities? (Select TWO.)",
+"options":[
+"AWS GuardDuty",
+"AWS Security Hub",
+"AWS IAM",
+"Amazon S3",
+"Amazon CloudFront"
+],
+"correctAnswers":[0,1],
+"explanation":"GuardDuty provides threat detection, and Security Hub aggregates and prioritizes findings."
+},
+{
+"id":"clf-ms-222",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to estimate cost savings when migrating from on-premises infrastructure to AWS. Which TWO AWS tools help with cost comparison and planning? (Select TWO.)",
+"options":[
+"AWS TCO Calculator",
+"AWS Pricing Calculator",
+"Amazon CloudWatch",
+"AWS Lambda",
+"Amazon Route 53"
+],
+"correctAnswers":[0,1],
+"explanation":"The TCO Calculator estimates total cost of ownership, and the Pricing Calculator estimates AWS workload costs."
+},
+{
+"id":"clf-ms-223",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to ensure its web application remains available even if one Availability Zone fails. Which TWO architectural decisions help achieve this? (Select TWO.)",
+"options":[
+"Deploy EC2 instances in multiple Availability Zones",
+"Use an Application Load Balancer",
+"Store data only on instance store volumes",
+"Deploy everything in a single AZ",
+"Disable health checks"
+],
+"correctAnswers":[0,1],
+"explanation":"Multi-AZ deployment and load balancing provide high availability and fault tolerance."
+},
+{
+"id":"clf-ms-224",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to enforce least privilege access across its AWS environment. Which TWO best practices support this goal? (Select TWO.)",
+"options":[
+"Use IAM roles instead of sharing credentials",
+"Grant only required permissions in IAM policies",
+"Use the root account for all tasks",
+"Share access keys among users",
+"Disable logging"
+],
+"correctAnswers":[0,1],
+"explanation":"IAM roles and least-privilege policies enforce secure access management."
+},
+{
+"id":"clf-ms-225",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to minimize EC2 costs for steady, long-term workloads while maintaining flexibility across instance families. Which TWO options are appropriate? (Select TWO.)",
+"options":[
+"Compute Savings Plans",
+"EC2 Instance Savings Plans",
+"On-Demand Instances",
+"Dedicated Hosts only",
+"Free Tier"
+],
+"correctAnswers":[0,1],
+"explanation":"Savings Plans provide discounted pricing with flexibility across compute services."
+},
+{
+"id":"clf-ms-226",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company needs to distribute traffic globally and reduce latency for static content delivery. Which TWO AWS services can help? (Select TWO.)",
+"options":[
+"Amazon CloudFront",
+"Amazon Route 53 latency-based routing",
+"Amazon EBS",
+"AWS IAM",
+"Amazon RDS"
+],
+"correctAnswers":[0,1],
+"explanation":"CloudFront reduces latency via edge caching, and Route 53 latency routing directs users to optimal Regions."
+},
+{
+"id":"clf-ms-227",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to protect its web applications from common vulnerabilities and distributed denial-of-service attacks. Which TWO AWS services provide protection? (Select TWO.)",
+"options":[
+"AWS WAF",
+"AWS Shield",
+"Amazon S3",
+"AWS CloudTrail",
+"Amazon Redshift"
+],
+"correctAnswers":[0,1],
+"explanation":"WAF protects against web exploits, and Shield protects against DDoS attacks."
+},
+{
+"id":"clf-ms-228",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants shared storage accessible from multiple Linux EC2 instances across Availability Zones. Which TWO services support this requirement? (Select TWO.)",
+"options":[
+"Amazon EFS",
+"Amazon FSx for Lustre",
+"Instance Store",
+"Amazon Glacier",
+"Amazon CloudFront"
+],
+"correctAnswers":[0,1],
+"explanation":"EFS and FSx provide shared scalable file storage."
+},
+{
+"id":"clf-ms-229",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO AWS features help proactively control and prevent unexpected cost overruns? (Select TWO.)",
+"options":[
+"AWS Budgets",
+"Billing alarms",
+"Amazon Route 53",
+"AWS Lambda",
+"Security Groups"
+],
+"correctAnswers":[0,1],
+"explanation":"AWS Budgets and billing alarms help prevent cost overruns."
+},
+{
+"id":"clf-ms-230",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to migrate large amounts of data from an on-premises data center with limited network bandwidth. Which TWO services are suitable? (Select TWO.)",
+"options":[
+"AWS Snowball",
+"AWS DataSync",
+"Amazon Route 53",
+"Amazon DynamoDB",
+"AWS Shield"
+],
+"correctAnswers":[0,1],
+"explanation":"Snowball supports physical migration, and DataSync supports automated online transfer."
+},
+{
+"id":"clf-ms-231",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants centralized visibility into security findings across multiple AWS accounts. Which TWO services should be used? (Select TWO.)",
+"options":[
+"AWS Security Hub",
+"AWS GuardDuty",
+"Amazon EBS",
+"Amazon S3 Standard",
+"AWS Pricing Calculator"
+],
+"correctAnswers":[0,1],
+"explanation":"Security Hub aggregates findings, and GuardDuty provides threat detection."
+},
+{
+"id":"clf-ms-232",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to analyze usage trends and forecast future AWS spending. Which TWO tools help achieve this? (Select TWO.)",
+"options":[
+"AWS Cost Explorer",
+"AWS Pricing Calculator",
+"Amazon EC2",
+"AWS IAM",
+"Amazon Route 53"
+],
+"correctAnswers":[0,1],
+"explanation":"Cost Explorer provides forecasting and trend analysis; Pricing Calculator estimates projected costs."
+},
+{
+"id":"clf-ms-233",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to design a scalable and highly available web application. Which TWO AWS services help automatically adjust capacity and distribute incoming traffic? (Select TWO.)",
+"options":[
+"Auto Scaling group",
+"Application Load Balancer",
+"Amazon S3 Glacier",
+"Dedicated Host",
+"Amazon Route 53 simple routing only"
+],
+"correctAnswers":[0,1],
+"explanation":"Auto Scaling adjusts capacity and Application Load Balancer distributes traffic across instances."
+},
+{
+"id":"clf-ms-234",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to protect sensitive data stored in Amazon S3. Which TWO security measures should be implemented? (Select TWO.)",
+"options":[
+"Enable server-side encryption",
+"Use IAM policies to restrict access",
+"Disable versioning",
+"Make bucket public",
+"Store data in instance store"
+],
+"correctAnswers":[0,1],
+"explanation":"Server-side encryption protects data at rest, and IAM policies control access."
+},
+{
+"id":"clf-ms-235",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to lower compute costs for flexible workloads that can tolerate interruptions. Which TWO options provide cost savings? (Select TWO.)",
+"options":[
+"Spot Instances",
+"Savings Plans",
+"On-Demand Instances",
+"Dedicated Hosts",
+"Standard Reserved Instances only"
+],
+"correctAnswers":[0,1],
+"explanation":"Spot Instances offer deep discounts for interruptible workloads, and Savings Plans offer discounted rates for committed usage."
+},
+{
+"id":"clf-ms-236",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company needs a globally distributed DNS service that can route users based on latency and perform health checks. Which TWO Route 53 features support this requirement? (Select TWO.)",
+"options":[
+"Latency-based routing",
+"Health checks",
+"Simple routing only",
+"Security groups",
+"Instance store"
+],
+"correctAnswers":[0,1],
+"explanation":"Latency-based routing directs users to optimal Regions and health checks enable failover."
+},
+{
+"id":"clf-ms-237",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO AWS services provide centralized logging and monitoring for auditing purposes? (Select TWO.)",
+"options":[
+"Amazon CloudTrail",
+"Amazon CloudWatch",
+"Amazon EBS",
+"Amazon S3 Glacier",
+"AWS Snowball"
+],
+"correctAnswers":[0,1],
+"explanation":"CloudTrail logs API activity and CloudWatch monitors metrics and logs."
+},
+{
+"id":"clf-ms-238",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants shared scalable storage for containerized applications running across multiple EC2 instances. Which TWO services are appropriate? (Select TWO.)",
+"options":[
+"Amazon EFS",
+"Amazon FSx",
+"Instance Store",
+"Amazon S3 Glacier",
+"Amazon Redshift"
+],
+"correctAnswers":[0,1],
+"explanation":"EFS and FSx provide shared file storage across instances."
+},
+{
+"id":"clf-ms-239",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to manage and monitor costs across multiple AWS accounts under a single organization. Which TWO features should be used? (Select TWO.)",
+"options":[
+"AWS Organizations",
+"Consolidated billing",
+"IAM groups",
+"Amazon EC2",
+"AWS Lambda"
+],
+"correctAnswers":[0,1],
+"explanation":"AWS Organizations with consolidated billing centralizes cost management."
+},
+{
+"id":"clf-ms-240",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to run serverless workloads that automatically scale and require no infrastructure management. Which TWO services meet this requirement? (Select TWO.)",
+"options":[
+"AWS Lambda",
+"AWS Fargate",
+"Amazon EC2 manual provisioning",
+"Dedicated Hosts",
+"Amazon EBS"
+],
+"correctAnswers":[0,1],
+"explanation":"Lambda and Fargate provide serverless compute options."
+},
+{
+"id":"clf-ms-241",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to prevent distributed denial-of-service attacks and filter malicious traffic. Which TWO services should be used? (Select TWO.)",
+"options":[
+"AWS Shield",
+"AWS WAF",
+"Amazon EBS",
+"AWS Cost Explorer",
+"Amazon DynamoDB"
+],
+"correctAnswers":[0,1],
+"explanation":"Shield protects against DDoS attacks and WAF filters malicious traffic."
+},
+{
+"id":"clf-ms-242",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO actions help forecast and plan future AWS spending? (Select TWO.)",
+"options":[
+"Use AWS Cost Explorer forecasting",
+"Use AWS Pricing Calculator",
+"Disable billing alerts",
+"Purchase unnecessary Reserved Instances",
+"Disable Auto Scaling"
+],
+"correctAnswers":[0,1],
+"explanation":"Cost Explorer provides forecasting and Pricing Calculator estimates workload costs."
+},
+{
+"id":"clf-ms-243",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to ensure that its relational database remains available during an Availability Zone outage. Which TWO AWS features support this requirement? (Select TWO.)",
+"options":[
+"Amazon RDS Multi-AZ deployment",
+"Automatic failover",
+"Deploy database on single EC2 instance",
+"Disable backups",
+"Store database on instance store"
+],
+"correctAnswers":[0,1],
+"explanation":"RDS Multi-AZ with automatic failover ensures high availability."
+},
+{
+"id":"clf-ms-244",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to enforce encryption for data at rest across multiple AWS services. Which TWO approaches help achieve this? (Select TWO.)",
+"options":[
+"Use AWS KMS-managed keys",
+"Enable service-level encryption (e.g., S3, EBS encryption)",
+"Disable logging",
+"Share encryption keys publicly",
+"Store data in plain text"
+],
+"correctAnswers":[0,1],
+"explanation":"KMS manages keys, and enabling service-level encryption protects data at rest."
+},
+{
+"id":"clf-ms-245",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to reduce AWS costs by eliminating idle resources. Which TWO actions support this objective? (Select TWO.)",
+"options":[
+"Right-size EC2 instances",
+"Delete unused EBS volumes",
+"Increase instance sizes",
+"Disable cost monitoring",
+"Purchase unnecessary Reserved Instances"
+],
+"correctAnswers":[0,1],
+"explanation":"Right-sizing and deleting unused volumes reduce unnecessary spending."
+},
+{
+"id":"clf-ms-246",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company needs to provide secure remote access to private EC2 instances without exposing them to the internet. Which TWO solutions are appropriate? (Select TWO.)",
+"options":[
+"Use a bastion host",
+"Use AWS Systems Manager Session Manager",
+"Assign public IPs to all instances",
+"Disable security groups",
+"Use instance store only"
+],
+"correctAnswers":[0,1],
+"explanation":"Bastion hosts and Session Manager allow secure access without exposing instances."
+},
+{
+"id":"clf-ms-247",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO AWS services help identify potential security misconfigurations? (Select TWO.)",
+"options":[
+"AWS Config",
+"AWS Security Hub",
+"Amazon Route 53",
+"Amazon EFS",
+"AWS Snowball"
+],
+"correctAnswers":[0,1],
+"explanation":"AWS Config tracks configuration compliance and Security Hub aggregates findings."
+},
+{
+"id":"clf-ms-248",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to improve global application performance using AWS’s private backbone network. Which TWO services help achieve this? (Select TWO.)",
+"options":[
+"AWS Global Accelerator",
+"Amazon CloudFront",
+"Amazon EBS",
+"Amazon DynamoDB local only",
+"Dedicated Host"
+],
+"correctAnswers":[0,1],
+"explanation":"Global Accelerator and CloudFront use AWS’s global network to improve performance."
+},
+{
+"id":"clf-ms-249",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants alerts when AWS costs exceed specific thresholds. Which TWO services provide this capability? (Select TWO.)",
+"options":[
+"AWS Budgets",
+"Billing alarms via CloudWatch",
+"Amazon EC2",
+"AWS IAM",
+"Amazon Route 53"
+],
+"correctAnswers":[0,1],
+"explanation":"AWS Budgets and billing alarms provide proactive cost notifications."
+},
+{
+"id":"clf-ms-250",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to store infrequently accessed data at low cost while maintaining durability. Which TWO S3 storage classes are appropriate? (Select TWO.)",
+"options":[
+"S3 Standard-IA",
+"S3 Glacier Flexible Retrieval",
+"S3 Standard",
+"Instance Store",
+"Amazon EBS"
+],
+"correctAnswers":[0,1],
+"explanation":"Standard-IA and Glacier Flexible Retrieval are designed for infrequently accessed data."
+},
+{
+"id":"clf-ms-251",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to implement least privilege access for applications running on EC2 instances. Which TWO methods should be used? (Select TWO.)",
+"options":[
+"Attach IAM roles to EC2 instances",
+"Define restrictive IAM policies",
+"Store access keys in application code",
+"Use root credentials",
+"Disable logging"
+],
+"correctAnswers":[0,1],
+"explanation":"IAM roles and restrictive policies enforce least privilege securely."
+},
+{
+"id":"clf-ms-252",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to compare AWS pricing options before launching a new workload. Which TWO tools help estimate projected costs? (Select TWO.)",
+"options":[
+"AWS Pricing Calculator",
+"AWS Cost Explorer",
+"Amazon EC2",
+"AWS Shield",
+"Amazon EBS"
+],
+"correctAnswers":[0,1],
+"explanation":"Pricing Calculator estimates costs and Cost Explorer analyzes historical spending."
+},
+{"id":"clf-ms-253",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to ensure its application remains available even if a Region becomes unavailable. Which TWO strategies improve resilience at the Regional level? (Select TWO.)",
+"options":[
+"Deploy the application in multiple Regions",
+"Use Route 53 failover routing",
+"Deploy everything in a single AZ",
+"Disable health checks",
+"Store data only on instance store"
+],
+"correctAnswers":[0,1],
+"explanation":"Multi-Region deployment and Route 53 failover routing improve Regional resilience."
+},
+{
+"id":"clf-ms-254",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to monitor for suspicious API activity and potential threats. Which TWO services provide automated detection capabilities? (Select TWO.)",
+"options":[
+"AWS GuardDuty",
+"AWS CloudTrail",
+"Amazon Route 53",
+"Amazon EBS",
+"AWS Snowball"
+],
+"correctAnswers":[0,1],
+"explanation":"GuardDuty detects threats and CloudTrail logs API activity for investigation."
+},
+{
+"id":"clf-ms-255",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to gain visibility into resource usage across multiple AWS accounts. Which TWO features support centralized cost tracking? (Select TWO.)",
+"options":[
+"AWS Organizations with consolidated billing",
+"Cost allocation tags",
+"Disable billing dashboard",
+"Separate root accounts only",
+"Disable Cost Explorer"
+],
+"correctAnswers":[0,1],
+"explanation":"Organizations with consolidated billing and cost allocation tags enable centralized cost tracking."
+},
+{
+"id":"clf-ms-256",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to provide secure connectivity between its on-premises data center and AWS. Which TWO services enable hybrid connectivity? (Select TWO.)",
+"options":[
+"AWS Direct Connect",
+"AWS Site-to-Site VPN",
+"Amazon CloudFront",
+"Amazon S3 Glacier",
+"AWS Budgets"
+],
+"correctAnswers":[0,1],
+"explanation":"Direct Connect and Site-to-Site VPN provide secure hybrid connectivity."
+},
+{
+"id":"clf-ms-257",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to protect sensitive data in transit between clients and AWS services. Which TWO methods provide encryption in transit? (Select TWO.)",
+"options":[
+"Use HTTPS (TLS)",
+"Enable SSL/TLS certificates on load balancers",
+"Disable encryption",
+"Store data in instance store",
+"Use public buckets"
+],
+"correctAnswers":[0,1],
+"explanation":"HTTPS and TLS certificates provide encryption in transit."
+},
+{
+"id":"clf-ms-258",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to automatically scale containerized workloads without managing servers. Which TWO services support this requirement? (Select TWO.)",
+"options":[
+"AWS Fargate",
+"Amazon ECS",
+"Dedicated Hosts",
+"Amazon EBS",
+"Instance Store"
+],
+"correctAnswers":[0,1],
+"explanation":"ECS with Fargate enables serverless container execution."
+},
+{
+"id":"clf-ms-259",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"Which TWO actions help identify unused or underutilized AWS resources? (Select TWO.)",
+"options":[
+"Use AWS Cost Explorer",
+"Review Trusted Advisor recommendations",
+"Disable monitoring",
+"Increase instance sizes",
+"Disable billing alerts"
+],
+"correctAnswers":[0,1],
+"explanation":"Cost Explorer and Trusted Advisor help identify underutilized resources."
+},
+{
+"id":"clf-ms-260",
+"exam":"CLF-C02",
+"domain":"Technology",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants shared file storage that supports Windows-based workloads and Active Directory integration. Which TWO services are appropriate? (Select TWO.)",
+"options":[
+"Amazon FSx for Windows File Server",
+"Amazon FSx",
+"Amazon EBS (single attach)",
+"Instance Store",
+"Amazon Glacier"
+],
+"correctAnswers":[0,1],
+"explanation":"FSx for Windows and FSx provide shared Windows-compatible storage."
+},
+{
+"id":"clf-ms-261",
+"exam":"CLF-C02",
+"domain":"Security & Compliance",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to restrict access to AWS services based on corporate IP ranges. Which TWO features can enforce this control? (Select TWO.)",
+"options":[
+"IAM policy conditions using IP address restrictions",
+"Security group rules",
+"Disable encryption",
+"Use root account",
+"Disable logging"
+],
+"correctAnswers":[0,1],
+"explanation":"IAM policy conditions and security group rules can restrict access by IP range."
+},
+{
+"id":"clf-ms-262",
+"exam":"CLF-C02",
+"domain":"Billing & Pricing",
+"difficulty":3,
+"multiSelect":true,
+"question":"A company wants to reduce long-term compute costs while maintaining flexibility across AWS services such as EC2, Fargate, and Lambda. Which TWO pricing models are appropriate? (Select TWO.)",
+"options":[
+"Compute Savings Plans",
+"EC2 Instance Savings Plans",
+"Spot Instances only",
+"Dedicated Hosts only",
+"Free Tier"
+],
+"correctAnswers":[0,1],
+"explanation":"Savings Plans provide discounted pricing across multiple compute services."
+},
+{"id":"clf-easy-333","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which AWS service provides virtual servers?","options":["Amazon EC2","Amazon S3","AWS IAM","Amazon Route 53"],"correctAnswer":0,"explanation":"Amazon EC2 provides virtual servers."},
+
+{"id":"clf-easy-334","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides object storage?","options":["Amazon S3","Amazon EBS","Amazon EC2","AWS Lambda"],"correctAnswer":0,"explanation":"Amazon S3 is object storage."},
+
+{"id":"clf-easy-335","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which service manages user access?","options":["AWS IAM","Amazon EC2","Amazon S3","AWS Shield"],"correctAnswer":0,"explanation":"IAM manages access permissions."},
+
+{"id":"clf-easy-336","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service runs code without servers?","options":["AWS Lambda","Amazon EC2","Amazon RDS","Amazon VPC"],"correctAnswer":0,"explanation":"Lambda is serverless compute."},
+
+{"id":"clf-easy-337","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides a managed relational database?","options":["Amazon RDS","Amazon DynamoDB","Amazon S3","AWS CloudTrail"],"correctAnswer":0,"explanation":"RDS is managed relational database service."},
+
+{"id":"clf-easy-338","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides DNS management?","options":["Amazon Route 53","Amazon CloudFront","Amazon EBS","AWS Budgets"],"correctAnswer":0,"explanation":"Route 53 is DNS service."},
+
+{"id":"clf-easy-339","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides block storage for EC2?","options":["Amazon EBS","Amazon S3","Amazon Glacier","AWS IAM"],"correctAnswer":0,"explanation":"EBS provides block storage."},
+
+{"id":"clf-easy-340","exam":"CLF-C02","domain":"Billing & Pricing","difficulty":1,"question":"Which pricing model requires no long-term commitment?","options":["On-Demand","Reserved Instances","Savings Plans","Dedicated Hosts"],"correctAnswer":0,"explanation":"On-Demand has no commitment."},
+
+{"id":"clf-easy-341","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which feature adds an extra authentication layer?","options":["MFA","Auto Scaling","CloudFront","EFS"],"correctAnswer":0,"explanation":"MFA adds additional authentication."},
+
+{"id":"clf-easy-342","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service delivers content globally with low latency?","options":["Amazon CloudFront","Amazon EC2","Amazon EBS","AWS Config"],"correctAnswer":0,"explanation":"CloudFront is a CDN."},
+
+{"id":"clf-easy-343","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides scalable NoSQL database?","options":["Amazon DynamoDB","Amazon RDS","Amazon EBS","AWS Lambda"],"correctAnswer":0,"explanation":"DynamoDB is NoSQL database."},
+
+{"id":"clf-easy-344","exam":"CLF-C02","domain":"Billing & Pricing","difficulty":1,"question":"Which tool analyzes AWS spending trends?","options":["AWS Cost Explorer","Amazon EC2","AWS Shield","Amazon S3"],"correctAnswer":0,"explanation":"Cost Explorer analyzes spending."},
+
+{"id":"clf-easy-345","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which service records API activity?","options":["AWS CloudTrail","Amazon EC2","Amazon S3","Amazon EFS"],"correctAnswer":0,"explanation":"CloudTrail logs API calls."},
+
+{"id":"clf-easy-346","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service creates isolated virtual networks?","options":["Amazon VPC","Amazon S3","Amazon RDS","AWS Budgets"],"correctAnswer":0,"explanation":"VPC provides network isolation."},
+
+{"id":"clf-easy-347","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service automatically scales EC2 instances?","options":["Auto Scaling","CloudTrail","IAM","Route 53"],"correctAnswer":0,"explanation":"Auto Scaling adjusts instance count."},
+
+{"id":"clf-easy-348","exam":"CLF-C02","domain":"Billing & Pricing","difficulty":1,"question":"Which pricing model offers highest discount but can be interrupted?","options":["Spot Instances","On-Demand","Reserved Instances","Dedicated Hosts"],"correctAnswer":0,"explanation":"Spot Instances are interruptible and discounted."},
+
+{"id":"clf-easy-349","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides shared file storage?","options":["Amazon EFS","Amazon EBS","Amazon S3","AWS Lambda"],"correctAnswer":0,"explanation":"EFS provides shared file storage."},
+
+{"id":"clf-easy-350","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which service protects against DDoS attacks?","options":["AWS Shield","AWS IAM","Amazon EC2","Amazon EBS"],"correctAnswer":0,"explanation":"Shield protects against DDoS."},
+
+{"id":"clf-easy-351","exam":"CLF-C02","domain":"Billing & Pricing","difficulty":1,"question":"Which service sets cost alerts?","options":["AWS Budgets","Amazon EC2","Amazon EBS","AWS Lambda"],"correctAnswer":0,"explanation":"Budgets provides cost alerts."},
+
+{"id":"clf-easy-352","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provisions infrastructure as code?","options":["AWS CloudFormation","Amazon EC2","AWS IAM","Amazon S3"],"correctAnswer":0,"explanation":"CloudFormation provisions infrastructure via templates."},
+
+{"id":"clf-easy-353","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service connects on-premises to AWS privately?","options":["AWS Direct Connect","CloudFront","IAM","S3"],"correctAnswer":0,"explanation":"Direct Connect provides private connectivity."},
+
+{"id":"clf-easy-354","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service transfers large data physically to AWS?","options":["AWS Snowball","CloudTrail","Route 53","Lambda"],"correctAnswer":0,"explanation":"Snowball transfers large data physically."},
+
+{"id":"clf-easy-355","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service monitors AWS resources?","options":["Amazon CloudWatch","Amazon EC2","Amazon S3","AWS Budgets"],"correctAnswer":0,"explanation":"CloudWatch monitors resources."},
+
+{"id":"clf-easy-356","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which service aggregates security findings?","options":["AWS Security Hub","Amazon EC2","Amazon S3","Amazon RDS"],"correctAnswer":0,"explanation":"Security Hub centralizes findings."},
+
+{"id":"clf-easy-357","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service is a data warehouse?","options":["Amazon Redshift","Amazon EC2","Amazon S3","AWS IAM"],"correctAnswer":0,"explanation":"Redshift is data warehouse service."},
+
+{"id":"clf-easy-358","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides managed container orchestration?","options":["Amazon ECS","Amazon S3","AWS IAM","Amazon EBS"],"correctAnswer":0,"explanation":"ECS manages containers."},
+
+{"id":"clf-easy-359","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides threat detection?","options":["AWS GuardDuty","Amazon EC2","Amazon S3","AWS Budgets"],"correctAnswer":0,"explanation":"GuardDuty detects threats."},
+
+{"id":"clf-easy-360","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service allows centralized account management?","options":["AWS Organizations","Amazon EC2","CloudWatch","EFS"],"correctAnswer":0,"explanation":"Organizations manages multiple accounts."},
+
+{"id":"clf-easy-361","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service accelerates global traffic using AWS network?","options":["AWS Global Accelerator","Amazon S3","IAM","EBS"],"correctAnswer":0,"explanation":"Global Accelerator improves global performance."},
+
+{"id":"clf-easy-362","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service is used for hybrid storage integration?","options":["AWS Storage Gateway","Amazon EC2","CloudFront","IAM"],"correctAnswer":0,"explanation":"Storage Gateway supports hybrid storage."},
+
+{"id":"clf-easy-363","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which service manages encryption keys?","options":["AWS KMS","Amazon EC2","Amazon EBS","CloudTrail"],"correctAnswer":0,"explanation":"KMS manages encryption keys."},
+
+{"id":"clf-easy-364","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides managed Windows file storage?","options":["Amazon FSx","Amazon S3","Amazon EC2","IAM"],"correctAnswer":0,"explanation":"FSx provides Windows file storage."},
+
+{"id":"clf-easy-365","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service allows automated data transfer online?","options":["AWS DataSync","CloudTrail","Route 53","Lambda"],"correctAnswer":0,"explanation":"DataSync automates online data transfer."},
+
+{"id":"clf-easy-366","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service balances traffic across targets?","options":["Elastic Load Balancing","Amazon EC2","AWS IAM","Amazon S3"],"correctAnswer":0,"explanation":"ELB distributes traffic."},
+
+{"id":"clf-easy-367","exam":"CLF-C02","domain":"Billing & Pricing","difficulty":1,"question":"Which tool estimates AWS workload costs?","options":["AWS Pricing Calculator","Amazon EC2","IAM","EBS"],"correctAnswer":0,"explanation":"Pricing Calculator estimates costs."},
+
+{"id":"clf-easy-368","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service supports serverless containers?","options":["AWS Fargate","Amazon EC2","Amazon S3","CloudWatch"],"correctAnswer":0,"explanation":"Fargate runs containers serverlessly."},
+
+{"id":"clf-easy-369","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which service tracks configuration compliance?","options":["AWS Config","Amazon EC2","S3","Route 53"],"correctAnswer":0,"explanation":"AWS Config tracks compliance."},
+
+{"id":"clf-easy-370","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which storage class is cheapest for long-term archival?","options":["S3 Glacier Deep Archive","S3 Standard","S3 Standard-IA","EBS"],"correctAnswer":0,"explanation":"Glacier Deep Archive is lowest-cost archival storage."},
+
+{"id":"clf-easy-371","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides shared scalable Linux file storage?","options":["Amazon EFS","Amazon EBS","Amazon S3","IAM"],"correctAnswer":0,"explanation":"EFS provides scalable file storage."},
+
+{"id":"clf-easy-372","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which service filters web traffic based on rules?","options":["AWS WAF","Amazon EC2","S3","EBS"],"correctAnswer":0,"explanation":"WAF filters web traffic."},
+
+{"id":"clf-easy-373","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service manages container clusters?","options":["Amazon ECS","Amazon RDS","Amazon S3","IAM"],"correctAnswer":0,"explanation":"ECS manages container clusters."},
+
+{"id":"clf-easy-374","exam":"CLF-C02","domain":"Billing & Pricing","difficulty":1,"question":"Which pricing option gives maximum discount for steady 3-year use?","options":["Reserved Instances","On-Demand","Spot","Free Tier"],"correctAnswer":0,"explanation":"Reserved Instances provide large discounts for long-term use."},
+
+{"id":"clf-easy-375","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides serverless relational database?","options":["Amazon Aurora Serverless","Amazon EC2","Amazon S3","IAM"],"correctAnswer":0,"explanation":"Aurora Serverless is serverless relational database."},
+
+{"id":"clf-easy-376","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which feature blocks public access to S3 buckets?","options":["S3 Block Public Access","IAM role","CloudWatch","EBS"],"correctAnswer":0,"explanation":"S3 Block Public Access prevents public exposure."},
+
+{"id":"clf-easy-377","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service automates backups across AWS services?","options":["AWS Backup","Amazon EC2","IAM","Route 53"],"correctAnswer":0,"explanation":"AWS Backup centralizes backups."},
+
+{"id":"clf-easy-378","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service enables event-driven architecture?","options":["Amazon EventBridge","Amazon EC2","Amazon EBS","IAM"],"correctAnswer":0,"explanation":"EventBridge supports event-driven workflows."},
+
+{"id":"clf-easy-379","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides managed Kubernetes?","options":["Amazon EKS","Amazon S3","IAM","CloudTrail"],"correctAnswer":0,"explanation":"EKS provides managed Kubernetes."},
+
+{"id":"clf-easy-380","exam":"CLF-C02","domain":"Billing & Pricing","difficulty":1,"question":"Which dashboard shows monthly AWS charges?","options":["AWS Billing Dashboard","CloudWatch","IAM","Route 53"],"correctAnswer":0,"explanation":"Billing Dashboard shows charges."},
+
+{"id":"clf-easy-381","exam":"CLF-C02","domain":"Technology","difficulty":1,"question":"Which service provides distributed caching?","options":["Amazon ElastiCache","Amazon EC2","Amazon S3","IAM"],"correctAnswer":0,"explanation":"ElastiCache provides caching service."},
+
+{"id":"clf-easy-382","exam":"CLF-C02","domain":"Security & Compliance","difficulty":1,"question":"Which service stores audit reports and compliance documents?","options":["AWS Artifact","Amazon EC2","Amazon S3","CloudFront"],"correctAnswer":0,"explanation":"AWS Artifact provides compliance documentation."},
+
+{
+"id":"clf-extreme-383",
+"exam":"Advanced AWS Architecture",
+"domain":"Architecture",
+"difficulty":5,
+"question":"A fintech company runs a latency-sensitive trading platform in a single AWS Region using EC2 instances and RDS Multi-AZ. The company must achieve near-zero Recovery Time Objective (RTO) and minimal Recovery Point Objective (RPO) in case of a full regional failure. Which architecture MOST effectively meets this requirement?",
+"options":[
+"Enable automated backups on RDS",
+"Deploy the entire stack in a second Region with active-active configuration and use Route 53 latency-based routing",
+"Increase instance size in primary Region",
+"Use S3 Standard-IA for backups"
+],
+"correctAnswer":1,
+"explanation":"Near-zero RTO/RPO requires multi-region active-active deployment with routing-based failover."
+},
+{
+"id":"clf-extreme-384",
+"difficulty":5,
+"question":"A company needs secure, private connectivity between 20 VPCs across multiple Regions and centralized inspection of all traffic. Which architecture is MOST scalable?",
+"options":[
+"VPC peering between all VPCs",
+"AWS Transit Gateway with centralized inspection VPC",
+"Internet Gateway for all VPCs",
+"Direct Connect per VPC"
+],
+"correctAnswer":1,
+"explanation":"Transit Gateway provides scalable hub-and-spoke connectivity with centralized inspection."
+},
+{
+"id":"clf-extreme-385",
+"difficulty":5,
+"question":"A healthcare company must ensure encryption at rest using customer-managed keys with strict separation of duties. Which solution is MOST appropriate?",
+"options":[
+"Use default AWS-managed encryption",
+"Use AWS KMS with customer-managed keys and key policies restricting access",
+"Disable encryption",
+"Use instance store"
+],
+"correctAnswer":1,
+"explanation":"Customer-managed KMS keys allow strict control and separation of duties."
+},
+{
+"id":"clf-extreme-386",
+"difficulty":5,
+"question":"A global SaaS provider must reduce cross-Region data transfer costs while maintaining low latency access to shared datasets. Which design is MOST cost-efficient?",
+"options":[
+"Store all data in one Region",
+"Replicate read-only datasets per Region using S3 replication",
+"Transfer data over public internet",
+"Use instance store only"
+],
+"correctAnswer":1,
+"explanation":"Replicating read datasets locally reduces cross-region transfer costs and latency."
+},
+{
+"id":"clf-extreme-387",
+"difficulty":5,
+"question":"A company wants centralized logging across 50 AWS accounts with immutable storage and automated compliance checks. Which combination is MOST appropriate?",
+"options":[
+"CloudTrail per account only",
+"Organization-wide CloudTrail + centralized S3 bucket with Object Lock + AWS Config aggregation",
+"Disable logging",
+"Manual log exports"
+],
+"correctAnswer":1,
+"explanation":"Organization trail + centralized immutable S3 storage + Config aggregation ensures governance."
+},
+{
+"id":"clf-extreme-388",
+"difficulty":5,
+"question":"A company experiences unpredictable but extreme traffic spikes globally. They require low latency and DDoS protection at scale. Which architecture BEST meets these needs?",
+"options":[
+"Single Region deployment",
+"CloudFront + AWS Shield Advanced + Multi-Region backend",
+"Dedicated Host only",
+"Increase EC2 instance size"
+],
+"correctAnswer":1,
+"explanation":"CloudFront distributes traffic globally and Shield Advanced mitigates DDoS."
+},
+{
+"id":"clf-extreme-389",
+"difficulty":5,
+"question":"A company wants fine-grained service control across multiple accounts preventing usage of specific AWS services. Which solution is MOST appropriate?",
+"options":[
+"IAM roles only",
+"Service Control Policies (SCPs) in AWS Organizations",
+"Security groups",
+"CloudTrail logs"
+],
+"correctAnswer":1,
+"explanation":"SCPs enforce organization-wide service restrictions."
+},
+{
+"id":"clf-extreme-390",
+"difficulty":5,
+"question":"A company runs containerized workloads requiring strict pod-level network isolation and Kubernetes control plane management without operational burden. Which service is MOST suitable?",
+"options":[
+"Amazon ECS on EC2",
+"Amazon EKS",
+"Amazon EC2 only",
+"Amazon S3"
+],
+"correctAnswer":1,
+"explanation":"EKS provides managed Kubernetes with advanced networking."
+},
+{
+"id":"clf-extreme-391",
+"difficulty":5,
+"question":"A company wants automated detection and remediation of non-compliant infrastructure changes across Regions. Which solution is MOST appropriate?",
+"options":[
+"Manual audits",
+"AWS Config rules with automatic remediation via Systems Manager",
+"Disable logging",
+"CloudFront"
+],
+"correctAnswer":1,
+"explanation":"Config rules + SSM automation enables automatic remediation."
+},
+{
+"id":"clf-extreme-392",
+"difficulty":5,
+"question":"A company wants to implement blue/green deployments with minimal downtime and automated rollback capability. Which service combination supports this?",
+"options":[
+"Manual EC2 deployments",
+"AWS CodeDeploy with Elastic Load Balancer",
+"Increase instance size",
+"S3 Glacier"
+],
+"correctAnswer":1,
+"explanation":"CodeDeploy supports blue/green with automated rollback."
+},
+{
+"id":"clf-extreme-393",
+"difficulty":5,
+"question":"A multinational company must ensure data residency compliance in specific countries while serving global customers. Which design is MOST appropriate?",
+"options":[
+"Single Region deployment",
+"Deploy workloads in required Regions and use Geo-based routing",
+"Disable encryption",
+"Use only CloudFront"
+],
+"correctAnswer":1,
+"explanation":"Geo-routing ensures data residency compliance."
+},
+{
+"id":"clf-extreme-394",
+"difficulty":5,
+"question":"A company wants serverless event-driven processing at massive scale with guaranteed message durability. Which architecture is MOST appropriate?",
+"options":[
+"EC2 polling loop",
+"S3 static website",
+"Amazon SQS + AWS Lambda",
+"Instance store"
+],
+"correctAnswer":2,
+"explanation":"SQS ensures durable messaging and Lambda scales automatically."
+},
+{
+"id":"clf-extreme-395",
+"difficulty":5,
+"question":"A company needs to minimize blast radius between development and production environments across accounts. Which approach is BEST?",
+"options":[
+"Use same account",
+"Separate accounts under AWS Organizations",
+"Disable IAM",
+"Share root credentials"
+],
+"correctAnswer":1,
+"explanation":"Account separation reduces blast radius."
+},
+{
+"id":"clf-extreme-396",
+"difficulty":5,
+"question":"A company needs sub-millisecond in-memory caching across multiple application nodes. Which service is MOST suitable?",
+"options":[
+"Amazon S3",
+"Amazon ElastiCache",
+"Amazon EBS",
+"CloudTrail"
+],
+"correctAnswer":1,
+"explanation":"ElastiCache provides in-memory caching."
+},
+{
+"id":"clf-extreme-397",
+"difficulty":5,
+"question":"A company wants to design a cost-optimized big data analytics platform for petabyte-scale queries. Which service is MOST appropriate?",
+"options":[
+"Amazon Redshift",
+"Amazon EC2 small instances",
+"Amazon S3 only",
+"IAM"
+],
+"correctAnswer":0,
+"explanation":"Redshift is optimized for petabyte-scale analytics."
+},
+{
+"id":"clf-extreme-398",
+"difficulty":5,
+"question":"A company must prevent data exfiltration from S3 buckets across all accounts. Which control provides centralized enforcement?",
+"options":[
+"SCP denying public S3 actions",
+"IAM user password policy",
+"Security group rule",
+"Disable CloudTrail"
+],
+"correctAnswer":0,
+"explanation":"SCP can deny public S3 actions organization-wide."
+},
+{
+"id":"clf-extreme-399",
+"difficulty":5,
+"question":"A company requires near real-time analytics on streaming data with automatic scaling. Which service is MOST suitable?",
+"options":[
+"Amazon Kinesis Data Streams",
+"Amazon EBS",
+"CloudTrail",
+"Route 53"
+],
+"correctAnswer":0,
+"explanation":"Kinesis processes streaming data in real time."
+},
+{
+"id":"clf-extreme-400",
+"difficulty":5,
+"question":"A company wants a fully managed, serverless workflow orchestration service for coordinating distributed microservices. Which service should they use?",
+"options":[
+"AWS Step Functions",
+"Amazon EC2",
+"Amazon EBS",
+"Amazon Route 53"
+],
+"correctAnswer":0,
+"explanation":"Step Functions orchestrates distributed serverless workflows."
+}
+
+
+]

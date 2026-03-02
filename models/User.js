@@ -52,6 +52,96 @@ const userSchema = new mongoose.Schema(
         },
       ],
     },
+    platforms: {
+      leetcode: {
+        username: { type: String },
+        verification: {
+          code: String,
+          verified: { type: Boolean, default: false },
+        },
+        stats: {
+          totalSolved: { type: Number, default: 0 },
+          easy: { type: Number, default: 0 },
+          medium: { type: Number, default: 0 },
+          hard: { type: Number, default: 0 },
+
+          contestRating: { type: Number, default: 0 },
+          topPercentage: { type: Number },
+
+          badges: [
+            {
+              name: String,
+              icon: String,
+            },
+          ],
+
+          lastUpdated: { type: Date },
+        },
+
+        ratingHistory: [
+          {
+            rating: Number,
+            date: Date,
+          },
+        ],
+      },
+
+      codeforces: {
+        username: { type: String },
+        verification: {
+          code: String,
+          verified: { type: Boolean, default: false },
+        },
+        stats: {
+          rating: { type: Number, default: 0 },
+          maxRating: { type: Number, default: 0 },
+          rank: { type: String },
+          maxRank: { type: String },
+
+          lastUpdated: { type: Date },
+        },
+
+        ratingHistory: [
+          {
+            rating: Number,
+            date: Date,
+          },
+        ],
+      },
+
+      github: {
+        username: { type: String },
+        verification: {
+          code: String,
+          verified: { type: Boolean, default: false },
+        },
+        stats: {
+          followers: { type: Number, default: 0 },
+          following: { type: Number, default: 0 },
+          publicRepos: { type: Number, default: 0 },
+
+          contributionsThisYear: { type: Number, default: 0 },
+
+          achievements: [
+            {
+              title: String,
+              icon: String,
+            },
+          ],
+
+          lastUpdated: { type: Date },
+        },
+      },
+    },
+    overallScore: {
+      type: Number,
+      default: 0,
+    },
+
+    creditTitle: {
+      type: String,
+      default: "Rising Coder",
+    },
   },
   { timestamps: true },
 );
